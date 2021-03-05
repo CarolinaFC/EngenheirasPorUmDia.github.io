@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Engenheiras Por um Dia</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         body {
@@ -329,12 +330,13 @@
             <ul>
                 <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
                 <li><a href="#Atividade2" data-page="Atividade2">Atividade 2</a></li>
-                <li><a href="#Atividade3" data-page="Atividade3">Atividade 3</a></li>
-                <li><a href="#Atividade4" data-page="Atividade4">Atividade 4</a></li>
             </ul>
         </nav>
         <!-- logo -->
-        <div class="logo"><img src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" alt="Engenheiras Por Um Dia" width="40%"></div>
+        <div class="logo">
+            <img src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" alt="Engenheiras Por Um Dia" width="40%">
+            <img src="https://www.ipbeja.pt/PublishingImages/IPBejaESTIG.jpg" alt="IPBeja - ESTIG" width="26%" style="margin-left:2%">
+        </div>
         <!-- title & content -->
         <section class="header-content">
             <h1 class="typewriter">Bem-Vindo</h1>
@@ -344,7 +346,13 @@
                Vamos aprender a programar um Website?</p>
             <button id="btn-vamos" type="button" data-page="Atividade1">Vamos lá!</button>
         </section>
+
+        <div style="color:white;margin-left:85%;margin-top: 15%">
+            <p >Desenvolvido por Carolina Cerdeira</p>
+        </div>
+
     </header>
+
 </div>
 
 <div class="page" id="Atividade1">
@@ -354,29 +362,27 @@
             <ul>
                 <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
                 <li><a href="#Atividade2" data-page="Atividade2">Atividade 2</a></li>
-                <li><a href="#Atividade3" data-page="Atividade3">Atividade 3</a></li>
-                <li><a href="#Atividade4" data-page="Atividade4">Atividade 4</a></li>
             </ul>
         </nav>
     </div>
 
     <div id="bloco_codigo">
         <div class="tab">
-            <button class="tablinks" onclick="openEfeito(event, 'Efeito1')" id="defaultOpen">Efeito 1</button>
-            <button class="tablinks" onclick="openEfeito(event, 'Efeito2')">Efeito 2</button>
-            <button class="tablinks" onclick="openEfeito(event, 'Efeito3')">Efeito 3</button>
+            <button class="tablinks" onclick="openEfeito(event, 'Passo1')" id="defaultOpen">Passo 1</button>
+            <button class="tablinks" onclick="openEfeito(event, 'Passo2')">Passo 2</button>
+            <button class="tablinks" onclick="openEfeito(event, 'Passo3')">Passo 3</button>
         </div>
 
-        <div id="Efeito1" class="tabcontent">
-            <h3>Efeito 1</h3>
+        <div id="Passo1" class="tabcontent">
+            <h3>Passo 1</h3>
             <p>Codigo para o primeiro efeito</p>
         </div>
-        <div id="Efeito2" class="tabcontent">
-            <h3>Efeito 2</h3>
+        <div id="Passo2" class="tabcontent">
+            <h3>Passo 2</h3>
             <p>Codigo para o segundo efeito</p>
         </div>
-        <div id="Efeito3" class="tabcontent">
-            <h3>Efeito 3</h3>
+        <div id="Passo3" class="tabcontent">
+            <h3>Passo 3</h3>
             <p>Codigo para o terceiro efeito</p>
         </div>
 
@@ -409,7 +415,9 @@
             <div class="desc">Add a description of the image here</div>
         </div>
 
-        <button type="button" id="btn_inicio"><i class="fas fa-arrow-up"></i>Voltar ao inicio</button>
+        <button type="button" id="btn_inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
+
+
     </div>
 
 
@@ -422,34 +430,6 @@
             <ul>
                 <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
                 <li><a href="#Atividade2" data-page="Atividade2">Atividade 2</a></li>
-                <li><a href="#Atividade3" data-page="Atividade3">Atividade 3</a></li>
-                <li><a href="#Atividade4" data-page="Atividade4">Atividade 4</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>
-<div class="page" id="Atividade3">
-    <div class="nav_personalizada">
-        <a class="navbar-brand brand"><img class="img_logo" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" width="30%"></a>
-        <nav>
-            <ul>
-                <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
-                <li><a href="#Atividade2" data-page="Atividade2">Atividade 2</a></li>
-                <li><a href="#Atividade3" data-page="Atividade3">Atividade 3</a></li>
-                <li><a href="#Atividade4" data-page="Atividade4">Atividade 4</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>
-<div class="page" id="Atividade4">
-    <div class="nav_personalizada">
-        <a class="navbar-brand brand"><img class="img_logo" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" width="30%"></a>
-        <nav>
-            <ul>
-                <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
-                <li><a href="#Atividade2" data-page="Atividade2">Atividade 2</a></li>
-                <li><a href="#Atividade3" data-page="Atividade3">Atividade 3</a></li>
-                <li><a href="#Atividade4" data-page="Atividade4">Atividade 4</a></li>
             </ul>
         </nav>
     </div>
