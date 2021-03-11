@@ -95,6 +95,7 @@
         }
         #img_logo {
             margin-top: -2%;
+            width: 30%;
         }
 
         nav{
@@ -309,6 +310,112 @@
         #btn_inicio:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
+
+        /** Actividade 1 **/
+        @media only screen and (max-width: 600px) {
+            /*body {*/
+            /*    background-color: lightblue;*/
+            /*}*/
+            nav{
+                color: #FFF;
+                float: right;
+                margin: -12% 5%;
+            }
+            #img_logo {
+                margin-top: 0%;
+                width: 40%;
+            }
+            div.page {
+                min-height:1350px;
+            }
+            /* Style the tab */
+            .tab {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            /* Style the buttons inside the tab */
+            .tab button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            /* Change background color of buttons on hover */
+            .tab button:hover {
+                background-color: #ddd;
+            }
+            /* Create an active/current tablink class */
+            .tab button.active {
+                background-color: #ccc;
+            }
+            /* Style the tab content */
+            .tabcontent {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 85.72%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo {
+                width: 94%;
+            }
+            #testar_img {
+                float: right;
+                margin-right: 5%;
+                margin-top: 2%;
+            }
+
+            #demonstracao {
+                margin-left: 5%;
+                margin-top: 10%;
+                border: 1px solid black;
+                width: 86%;
+                height: 31.4vh;
+                border-radius: 4px;
+                position: absolute;
+                padding: 10px;
+            }
+            #btn_inicio {
+                background-color: #6ed037;
+                border-radius: 4px;
+                color: black;
+                margin-left: 7%;
+                margin-top: 26%;
+                font-size: 16px;
+                width: 63%;
+                padding: 3%;
+            }
+            #btn_continuar {
+                background-color: #693bbc;
+                border-radius: 4px;
+                color: white;
+                margin-left: 0%;
+                margin-top: 26%;
+                font-size: 16px;
+                width: 66%;
+                padding: 3%;
+            }
+            #btn{
+                display: inline-flex;
+                float: right;
+                margin-right: 1%;
+                width: 100%;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -357,7 +464,7 @@
 
 <div class="page" id="Atividade1">
     <div class="nav_personalizada">
-        <a class="navbar-brand brand"><img id="img_logo" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" width="30%"></a>
+        <a class="navbar-brand brand"><img id="img_logo" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234"></a>
         <nav>
             <ul>
                 <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
@@ -415,8 +522,11 @@
             <div class="desc">Add a description of the image here</div>
         </div>
 
-        <button type="button" id="btn_inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
+        <div id="btn">
+            <button type="button" class="btn" id="btn_continuar"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
+            <button type="button" class="btn" id="btn_inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
 
+        </div>
 
     </div>
 
