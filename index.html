@@ -201,6 +201,11 @@
             min-height:1000px;
         }
 
+        .form-cod {
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+
         /* Style the tab */
         .tab {
             overflow: hidden;
@@ -211,11 +216,6 @@
             margin-left: 5%;
             margin-top: 2%;
         }
-        .form-cod {
-            margin-left: 5%;
-            margin-top: 3%;
-        }
-
         /* Style the buttons inside the tab */
         .tab button {
             background-color: inherit;
@@ -227,19 +227,57 @@
             transition: 0.3s;
             font-size: 17px;
         }
-
         /* Change background color of buttons on hover */
         .tab button:hover {
             background-color: #ddd;
         }
-
         /* Create an active/current tablink class */
         .tab button.active {
             background-color: #ccc;
         }
-
         /* Style the tab content */
         .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            border-top: none;
+            width: 33.72%;
+            margin-left: 5%;
+            height: 35vh;
+        }
+
+        /* Style the tab */
+        .tab1 {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+            width: 35%;
+            margin-left: 5%;
+            margin-top: 2%;
+        }
+        /* Style the buttons inside the tab */
+        .tab1 button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        /* Change background color of buttons on hover */
+        .tab1 button:hover {
+            background-color: #ddd;
+        }
+        /* Create an active/current tablink class */
+        .tab1 button.active {
+            background-color: #ccc;
+        }
+        /* Style the tab content */
+        .tabcontent1 {
             display: none;
             padding: 6px 12px;
             border: 1px solid #ccc;
@@ -262,6 +300,18 @@
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
 
+        #testar_vid {
+            background-color: #693bbc;
+            border-radius: 4px;
+            color: white;
+            margin-left: 2%;
+            font-size: 16px;
+            padding: 5px 20px;
+        }
+        #testar_vid:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
         .demonstracao {
             margin-top: -37%;
             border: 1px solid black;
@@ -279,22 +329,19 @@
             float: left;
             width: 180px;
         }
-
         div.gallery:hover {
             border: 1px solid #777;
         }
-
         div.gallery img {
             width: 100%;
             height: auto;
         }
-
         div.desc {
             padding: 15px;
             text-align: center;
         }
 
-        #btn_inicio {
+        .btn_inicio {
             background-color: #6ed037;
             border-radius: 4px;
             color: black;
@@ -303,10 +350,10 @@
             width: 19%;
             padding: 1.5%;
         }
-        #btn_inicio:hover {
+        .btn_inicio:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
-        #btn_continuar {
+        .btn_continuar {
             background-color: #693bbc;
             border-radius: 4px;
             color: white;
@@ -315,10 +362,10 @@
             width: 21%;
             padding: 1.5%;
         }
-        #btn_continuar:hover {
+        .btn_continuar:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
-        #btn {
+        .btn {
             display: inline-block;
             float: right;
             margin-right: -1%;
@@ -326,9 +373,22 @@
             margin-top: 51.65%;
         }
 
-        #code {
+        .code {
             background-color: #f1f1f1;
             font-size: 105%;
+        }
+
+        #btn_inicio1 {
+            background-color: #6ed037;
+            border-radius: 4px;
+            color: black;
+            font-size: 16px;
+            width: 19%;
+            padding: 1.5%;
+            margin-left: 81%;
+        }
+        #btn_inicio1:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
 
         /** Actividade 1 **/
@@ -386,10 +446,51 @@
                 height: 35vh;
             }
 
-            #codigo {
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 85.72%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_img {
                 width: 94%;
             }
             #testar_img {
+                float: right;
+                margin-right: 5%;
+                margin-top: 0.5%;
+            }
+            #testar_vid {
                 float: right;
                 margin-right: 5%;
                 margin-top: 0.5%;
@@ -411,7 +512,7 @@
                 float: left;
                 width: 175px;
             }
-            #btn_inicio {
+            .btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
@@ -421,7 +522,7 @@
                 width: 63%;
                 padding: 3%;
             }
-            #btn_continuar {
+            .btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -431,7 +532,7 @@
                 width: 66%;
                 padding: 3%;
             }
-            #btn{
+            .btn{
                 display: inline-flex;
                 float: right;
                 margin-right: 1%;
@@ -495,12 +596,53 @@
                 height: 35vh;
             }
 
-            #codigo {
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 86.72%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_img {
                 width: 94%;
                 border: 1px solid black;
                 border-radius: 4px;
             }
             #testar_img {
+                float: right;
+                margin-right: 5%;
+                margin-top: 0.5%;
+            }
+            #testar_vid {
                 float: right;
                 margin-right: 5%;
                 margin-top: 0.5%;
@@ -522,7 +664,7 @@
                 float: left;
                 width: 175px;
             }
-            #btn_inicio {
+            .btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
@@ -532,7 +674,7 @@
                 width: 63%;
                 padding: 3%;
             }
-            #btn_continuar {
+            .btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -542,7 +684,7 @@
                 width: 66%;
                 padding: 3%;
             }
-            #btn{
+            .btn{
                 display: inline-flex;
                 float: right;
                 margin-right: 1%;
@@ -606,12 +748,53 @@
                 height: 35vh;
             }
 
-            #codigo {
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 43%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 40.72%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_img {
                 width: 45%;
                 border: 1px solid black;
                 border-radius: 4px;
             }
             #testar_img {
+                /*float: right;*/
+                margin-right: 5%;
+                margin-top: 0.5%;
+            }
+            #testar_vid {
                 /*float: right;*/
                 margin-right: 5%;
                 margin-top: 0.5%;
@@ -633,7 +816,7 @@
                 float: left;
                 width: 175px;
             }
-            #btn_inicio {
+            .btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
@@ -643,7 +826,7 @@
                 width: 98%;
                 padding: 0%;
             }
-            #btn_continuar {
+            .btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -653,7 +836,7 @@
                 width: 117%;
                 padding: 3%;
             }
-            #btn{
+            .btn{
                 display: inline-flex;
                 float: right;
                 margin-right: 1%;
@@ -717,12 +900,56 @@
                 height: 35vh;
             }
 
-            #codigo {
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 40%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 38.30%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_img {
                 width: 42%;
                 border: 1px solid black;
                 border-radius: 4px;
             }
             #testar_img  {
+                background-color: #693bbc;
+                border-radius: 4px;
+                color: white;
+                margin-left: 2%;
+                font-size: 16px;
+                padding: 5px 20px;
+            }
+            #testar_vid  {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -747,7 +974,7 @@
                 float: left;
                 width: 180px;
             }
-            #btn_inicio {
+            .btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
@@ -756,7 +983,7 @@
                 width: 23%;
                 padding: 1.5%;
             }
-            #btn_continuar {
+            .btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -765,7 +992,7 @@
                 width: 26%;
                 padding: 1.5%;
             }
-            #btn {
+            .btn {
                 display: inline-block;
                 float: right;
                 margin-right: -1%;
@@ -884,7 +1111,6 @@
         </form>
     </div>
 
-
     <div class="demonstracao">
         <div class="gallery">
             <a target="_blank" href="https://regiao-sul.pt/wp-content/uploads/2017/05/viagens-1200x720.jpg">
@@ -896,12 +1122,10 @@
         <div id="demo_img"></div>
 
         <div class="btn">
-            <button type="button" class="btn btn_continuar" data-page="Atividade2"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
-            <button type="button" class="btn btn_inicio" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
+            <button type="button" class="btn_continuar" data-page="Atividade2"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
+            <button type="button" class="btn_inicio" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
         </div>
-
     </div>
-
 
 
 </div>
@@ -917,21 +1141,21 @@
     </div>
 
     <div class="bloco_codigo">
-        <div class="tab">
-            <button class="tablinks" onclick="openEfeito(event, 'Passo1_Video')" id="defaultOpen1">Passo 1</button>
-            <button class="tablinks" onclick="openEfeito(event, 'Passo2_Video')">Passo 2</button>
-            <button class="tablinks" onclick="openEfeito(event, 'Passo3_Video')">Video</button>
+        <div class="tab1">
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo1_Video')" id="defaultOpen1">Passo 1</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Passo 2</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo3_Video')">Video</button>
         </div>
 
-        <div id="Passo1_Video" class="tabcontent">
+        <div id="Passo1_Video" class="tabcontent1">
             <h3>Passo 1</h3>
             <p>Codigo para o primeiro efeito</p>
         </div>
-        <div id="Passo2_Video" class="tabcontent">
+        <div id="Passo2_Video" class="tabcontent1">
             <h3>Passo 2</h3>
             <p>Codigo para o segundo efeito</p>
         </div>
-        <div id="Passo3_Video" class="tabcontent">
+        <div id="Passo3_Video" class="tabcontent1">
             <h3>Adicionar Video</h3>
 
             <textarea readonly="readonly" cols="85" rows="10"><div class="gallery">
@@ -981,8 +1205,7 @@
         <div id="demo_vid"></div>
 
         <div class="btn">
-            <button type="button" class="btn btn_continuar" data-page="Atividade2"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
-            <button type="button" class="btn btn_inicio" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
+            <button type="button" id="btn_inicio1" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
         </div>
 
     </div>
@@ -1011,6 +1234,11 @@
         console.log(pageId);
         $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
     })
+    $('#btn_inicio1').click(function () {
+        var pageId = $(this).attr("data-page");
+        console.log(pageId);
+        $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+    })
 
     // Efeitos Codigo Imagens
     function openEfeito(evt, efeitoName) {
@@ -1029,11 +1257,29 @@
 
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
+
+
+    // Efeitos Codigo Videos
+    function openEfeito1(evt, efeitoName) {
+        var i, tabcontent1, tablinks1;
+        tabcontent1 = document.getElementsByClassName("tabcontent1");
+        for (i = 0; i < tabcontent1.length; i++) {
+            tabcontent1[i].style.display = "none";
+        }
+        tablinks1 = document.getElementsByClassName("tablinks1");
+        for (i = 0; i < tablinks1.length; i++) {
+            tablinks1[i].className = tablinks1[i].className.replace(" active", "");
+        }
+        document.getElementById(efeitoName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen1").click();
 
     //function testCode() {
       $('#testar_img').click(function () {
-          var message_img = $('textarea#codigo').val()
+          var message_img = $('textarea#codigo_img').val()
           console.log(message_img);
 
           var count = 0;
@@ -1046,13 +1292,13 @@
       })
 
     $('#testar_vid').click(function () {
-        var message_img = $('textarea#codigo').val()
-        console.log(message_img);
+        var message_vid = $('textarea#codigo_vid').val()
+        console.log(message_vid);
 
         var count = 0;
 
         if(count < 5) {
-            $('#demo_vid').append(message_img);
+            $('#demo_vid').append(message_vid);
             count++;
         }
         console.log(count);
