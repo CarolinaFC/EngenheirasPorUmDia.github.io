@@ -301,14 +301,32 @@
             background-color: #6ed037;
             border-radius: 4px;
             color: black;
-            margin-left: 84%;
-            margin-top: 52%;
+            margin-left: 3%;
             font-size: 16px;
-            width: 17%;
-            height: 15%;
+            width: 19%;
+            padding: 1.5%;
         }
         #btn_inicio:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        #btn_continuar {
+            background-color: #693bbc;
+            border-radius: 4px;
+            color: white;
+            margin-left: 56%;
+            font-size: 16px;
+            width: 21%;
+            padding: 1.5%;
+        }
+        #btn_continuar:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        #btn {
+            display: inline-block;
+            float: right;
+            margin-right: -1%;
+            width: 100%;
+            margin-top: 51.65%;
         }
 
         /** Actividade 1 **/
@@ -424,12 +442,16 @@
         }
 
 
+        #code {
+            background-color: #f1f1f1;
+            font-size: 105%;
+        }
     </style>
 </head>
 <body>
 
 <!-- Background & animion & navbar & title -->
-<div class="container-fluid">
+<div class="container-fluid" id="inicio">
     <!-- Background animtion-->
     <div class="background">
         <div class="cube"></div>
@@ -472,7 +494,7 @@
 
 <div class="page" id="Atividade1">
     <div class="nav_personalizada">
-        <a class="navbar-brand brand"><img id="img_logo" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234"></a>
+        <a class="navbar-brand brand"><img id="img_logo" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" alt="Engenheiras Por Um Dia"></a>
         <nav>
             <ul>
                 <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
@@ -485,7 +507,7 @@
         <div class="tab">
             <button class="tablinks" onclick="openEfeito(event, 'Passo1')" id="defaultOpen">Passo 1</button>
             <button class="tablinks" onclick="openEfeito(event, 'Passo2')">Passo 2</button>
-            <button class="tablinks" onclick="openEfeito(event, 'Passo3')">Passo 3</button>
+            <button class="tablinks" onclick="openEfeito(event, 'Passo3')">Imagem</button>
         </div>
 
         <div id="Passo1" class="tabcontent">
@@ -497,8 +519,30 @@
             <p>Codigo para o segundo efeito</p>
         </div>
         <div id="Passo3" class="tabcontent">
-            <h3>Passo 3</h3>
-            <p>Codigo para o terceiro efeito</p>
+            <h3>Adicionar Imagem e Descrição</h3>
+
+            <textarea readonly="readonly" cols="85" rows="10"><div class="gallery">
+    <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU" alt="Praia" style="width:100%;max-width:300px;height:130px">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+</div>
+            </textarea>
+
+            <div id="code">
+                <pre id="imagem" style="margin-left: -26%">
+                    <code class="language-html" data-lang="html">
+                        &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">gallery</span><span class="attributecolor" style="color:#690">"</span>&gt;
+                            &lt;<span class="attributecolor" style="color:#905">a</span> <span class="attributecolor" style="color:#690">target="</span><span class="attributecolor" style="color:#07a">_blank</span><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">href="</span><b>URL da imagem escolhida</b><span class="attributecolor" style="color:#690">"</span>&gt;
+                                &lt;<span class="attributecolor" style="color:#905">img</span> <span class="attributecolor" style="color:#690">src="</span><b>URL da imagem escolhida</b>" <span class="attributecolor" style="color:#690">alt="</span><b>Insere aqui o nome do teu TEMA</b><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">style="</span><span class="attributecolor" style="color:#07a">width:100%;max-width:300px;height:130px</span><span class="attributecolor" style="color:#690">"</span>&gt;
+                            &lt;<span class="attributecolor" style="color:#905">/a</span>&gt;
+                            &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">desc</span><span class="attributecolor" style="color:#690">"</span>&gt;<b>Adiciona uma descrição da imagem aqui</b>&lt;<span class="attributecolor" style="color:#905">/div</span>&gt;
+                        &lt;<span class="attributecolor" style="color:#905">/div</span>&gt;
+                    </code>
+                </pre>
+            </div>
+
+
         </div>
 
     </div>
@@ -509,7 +553,7 @@
                 <label for="codigo">Escreve o teu código:</label>
                 <br>
                 <textarea id="codigo" name="codigo" rows="15" cols="92"></textarea>
-                <button type="button" id="testar_img">Testar</button>
+                <button type="button" id="testar_img" onclick="testCode()">Testar</button>
             </div>
         </form>
     </div>
@@ -523,16 +567,11 @@
             <div class="desc">Add a description of the image here</div>
         </div>
 
-        <div class="gallery">
-            <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU" alt="Praia" style="width:100%;max-width:300px;height:130px">
-            </a>
-            <div class="desc">Add a description of the image here</div>
-        </div>
+
 
         <div id="btn">
-            <button type="button" class="btn" id="btn_continuar"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
-            <button type="button" class="btn" id="btn_inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
+            <button type="button" class="btn" id="btn_continuar" data-page="Atividade2"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
+            <button type="button" class="btn" id="btn_inicio" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
 
         </div>
 
@@ -561,6 +600,18 @@
 
     $('#btn-vamos').click(function () {
         var pageId = $(this).attr("data-page");
+        console.log(pageId);
+        $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+    })
+
+    $('#btn_inicio').click(function () {
+        var pageId = $(this).attr("data-page");
+        console.log(pageId);
+        $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+    })
+    $('#btn_continuar').click(function () {
+        var pageId = $(this).attr("data-page");
+        console.log(pageId);
         $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
     })
 
@@ -581,6 +632,12 @@
 
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
+
+    function testCode() {
+        var message = $('textarea#codigo').val()
+        console.log(message);
+        $('#demonstracao').append(message);
+    }
 
 </script>
 </body>
