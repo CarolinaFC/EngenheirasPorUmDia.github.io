@@ -97,6 +97,10 @@
             margin-top: -2%;
             width: 30%;
         }
+        .img_logo1 {
+            margin-top: -2%;
+            width: 30%;
+        }
 
         nav{
             color: #FFF;
@@ -292,9 +296,10 @@
             background-color: #693bbc;
             border-radius: 4px;
             color: white;
-            margin-left: 2%;
+            margin-left: 0%;
             font-size: 16px;
             padding: 5px 20px;
+            margin-top: 0.5%;
         }
         #testar_img:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -304,19 +309,20 @@
             background-color: #693bbc;
             border-radius: 4px;
             color: white;
-            margin-left: 2%;
+            margin-left: 0%;
             font-size: 16px;
             padding: 5px 20px;
+            margin-top: 0.5%;
         }
         #testar_vid:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
 
         .demonstracao {
-            margin-top: -37%;
+            margin-top: -39%;
             border: 1px solid black;
             width: 45%;
-            height: 45.4vh;
+            height: 72.4vh;
             border-radius: 4px;
             position: absolute;
             right: 5%;
@@ -341,7 +347,7 @@
             text-align: center;
         }
 
-        .btn_inicio {
+        #btn_inicio {
             background-color: #6ed037;
             border-radius: 4px;
             color: black;
@@ -350,10 +356,10 @@
             width: 19%;
             padding: 1.5%;
         }
-        .btn_inicio:hover {
+        #btn_inicio:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
-        .btn_continuar {
+        #btn_continuar {
             background-color: #693bbc;
             border-radius: 4px;
             color: white;
@@ -362,7 +368,7 @@
             width: 21%;
             padding: 1.5%;
         }
-        .btn_continuar:hover {
+        #btn_continuar:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
         .btn {
@@ -370,7 +376,7 @@
             float: right;
             margin-right: -1%;
             width: 100%;
-            margin-top: 51.65%;
+            margin-top: 57.65%;
         }
 
         .code {
@@ -378,6 +384,13 @@
             font-size: 105%;
         }
 
+        .btn1 {
+            display: inline-block;
+            float: right;
+            margin-right: -1%;
+            width: 100%;
+            margin-top: 57.65%;
+        }
         #btn_inicio1 {
             background-color: #6ed037;
             border-radius: 4px;
@@ -391,6 +404,135 @@
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
 
+        #developers {
+            color: white;
+            margin-left: 80%;
+            margin-top: 15%;
+        }
+
+        /** Home **/
+        @media only screen and (max-width: 600px) {
+            .logo {
+                margin: -59px 13px;
+                float: left;
+                width: 59%;
+            }
+            #nav_home {
+                color: #FFF;
+                float: right;
+                margin: 4% 3%;
+            }
+            #eng {
+                width: 40%;
+            }
+            #estig {
+                width: 26%;
+                margin-left: 2%;
+            }
+
+            #section_header {
+                margin-top: 63%;
+            }
+            #developers {
+                color: white;
+                margin-left: 8%;
+                margin-top: 55%;
+            }
+        }
+        /** Home **/
+        @media only screen and (min-width: 601px) and (max-width: 800px) {
+            #nav_home{
+                color: #FFF;
+                float: right;
+                margin: 4% 5%;
+            }
+            .logo {
+                margin: -78px 37px;
+                float: left;
+                width: 48%;
+            }
+            #eng {
+                width: 40%;
+            }
+            #estig {
+                width: 26%;
+                margin-left: 2%;
+            }
+
+            #section_header {
+                margin-top: 37%;
+            }
+            #developers {
+                color: white;
+                margin-left: 50%;
+                margin-top: 26%;
+            }
+        }
+        /** Home **/
+        @media only screen and (min-width: 801px) and (max-width: 1024px) {
+            nav {
+                color: #FFF;
+                float: right;
+                margin: 3% 5%;
+            }
+            #eng {
+                width: 40%;
+            }
+            #estig {
+                width: 26%;
+                margin-left: 2%;
+            }
+
+            #section_header {
+                margin-top: 26%;
+            }
+            #developers {
+                color: white;
+                margin-left: 62%;
+                margin-top: 23%;
+            }
+
+        }
+        /** Home **/
+        @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+            nav{
+                color: #FFF;
+                float: right;
+                margin:30px 90px;
+            }
+            #eng {
+                width: 40%;
+            }
+            #estig {
+                width: 26%;
+                margin-left: 2%;
+            }
+
+            #section_header {
+                margin-top: 26%;
+            }
+            #developers {
+                color: white;
+                margin-left: 72%;
+                margin-top: 19%;
+            }
+        }
+        /** Home **/
+        @media only screen and (min-width: 1441px) {
+            nav{
+                color: #FFF;
+                float: right;
+                margin:30px 90px;
+            }
+            #eng {
+                width: 40%;
+            }
+            #estig {
+                width: 26%;
+                margin-left: 2%;
+            }
+        }
+
         /** Actividade 1 **/
         @media only screen and (max-width: 600px) {
             nav{
@@ -399,7 +541,7 @@
                 margin: -12% 5%;
             }
             .img_logo {
-                margin-top: 0%;
+                margin-top: -1%;
                 width: 40%;
             }
             div.page {
@@ -441,45 +583,13 @@
                 border: 1px solid #ccc;
                 border-radius: 4px;
                 border-top: none;
-                width: 85.72%;
+                width: 84.2%;
                 margin-left: 5%;
                 height: 35vh;
             }
 
-            .tab1 {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            .tab1 button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            .tab1 button:hover {
-                background-color: #ddd;
-            }
-            .tab1 button.active {
-                background-color: #ccc;
-            }
-            .tabcontent1 {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 85.72%;
-                margin-left: 5%;
-                height: 35vh;
+            #textarea_cod {
+                width: 98%;
             }
 
             #codigo_img {
@@ -490,18 +600,13 @@
                 margin-right: 5%;
                 margin-top: 0.5%;
             }
-            #testar_vid {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
 
             .demonstracao {
                 margin-left: 5%;
                 margin-top: 10%;
                 border: 1px solid black;
                 width: 86%;
-                height: 31.4vh;
+                height: 54.4vh;
                 border-radius: 4px;
                 position: absolute;
                 padding: 10px;
@@ -512,7 +617,7 @@
                 float: left;
                 width: 175px;
             }
-            .btn_inicio {
+            #btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
@@ -522,7 +627,7 @@
                 width: 63%;
                 padding: 3%;
             }
-            .btn_continuar {
+            #btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -537,20 +642,19 @@
                 float: right;
                 margin-right: 1%;
                 width: 100%;
-                margin-top: 10%;
+                margin-top: 54%;
             }
         }
-
         /** Actividade 1 **/
-        @media only screen and (max-width: 800px) {
+        @media only screen and (min-width: 601px) and (max-width: 800px) {
             nav{
                 color: #FFF;
                 float: right;
-                margin: -10% 5%;
+                margin: -8% 5%;
             }
             .img_logo {
-                margin-top: 0%;
-                width: 40%;
+                margin-top: -1%;
+                width: 33%;
             }
             div.page {
                 min-height:1350px;
@@ -596,42 +700,6 @@
                 height: 35vh;
             }
 
-            .tab1 {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            .tab1 button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            .tab1 button:hover {
-                background-color: #ddd;
-            }
-            .tab1 button.active {
-                background-color: #ccc;
-            }
-            .tabcontent1 {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 86.72%;
-                margin-left: 5%;
-                height: 35vh;
-            }
-
             #codigo_img {
                 width: 94%;
                 border: 1px solid black;
@@ -642,18 +710,13 @@
                 margin-right: 5%;
                 margin-top: 0.5%;
             }
-            #testar_vid {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
 
             .demonstracao {
                 margin-left: 5%;
                 margin-top: 10%;
                 border: 1px solid black;
                 width: 86%;
-                height: 31.4vh;
+                height: 49.4vh;
                 border-radius: 4px;
                 position: absolute;
                 padding: 10px;
@@ -664,7 +727,7 @@
                 float: left;
                 width: 175px;
             }
-            .btn_inicio {
+            #btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
@@ -672,9 +735,9 @@
                 margin-top: 26%;
                 font-size: 16px;
                 width: 63%;
-                padding: 3%;
+                padding: 2%;
             }
-            .btn_continuar {
+            #btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -682,17 +745,16 @@
                 margin-top: 26%;
                 font-size: 16px;
                 width: 66%;
-                padding: 3%;
+                padding: 2%;
             }
             .btn{
                 display: inline-flex;
                 float: right;
                 margin-right: 1%;
                 width: 100%;
-                margin-top: -4%;
+                margin-top: 10%;
             }
         }
-
         /** Actividade 1 **/
         @media only screen and (min-width: 801px) and (max-width: 1024px) {
             nav{
@@ -701,11 +763,11 @@
                 margin: 3% 5%;
             }
             .img_logo {
-                margin-top: 0%;
+                margin-top: -2%;
                 width: 40%;
             }
             div.page {
-                min-height:900px;
+                min-height:800px;
             }
             /* Style the tab */
             .tab {
@@ -738,42 +800,6 @@
             }
             /* Style the tab content */
             .tabcontent {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 40.72%;
-                margin-left: 5%;
-                height: 35vh;
-            }
-
-            .tab1 {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 43%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            .tab1 button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            .tab1 button:hover {
-                background-color: #ddd;
-            }
-            .tab1 button.active {
-                background-color: #ccc;
-            }
-            .tabcontent1 {
                 display: none;
                 padding: 6px 12px;
                 border: 1px solid #ccc;
@@ -790,22 +816,16 @@
                 border-radius: 4px;
             }
             #testar_img {
-                /*float: right;*/
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
-            #testar_vid {
-                /*float: right;*/
-                margin-right: 5%;
-                margin-top: 0.5%;
+                margin-left: 0%;
+                margin-top: 1.5%;
             }
 
             .demonstracao {
                 margin-left: 5%;
-                margin-top: -63.50%;
+                margin-top: -67.50%;
                 border: 1px solid black;
                 width: 42%;
-                height: 31.4vh;
+                height: 72.6vh;
                 border-radius: 4px;
                 position: absolute;
                 padding: 10px;
@@ -816,35 +836,34 @@
                 float: left;
                 width: 175px;
             }
-            .btn_inicio {
+            #btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
                 margin-left: 5%;
-                margin-top: 26%;
+                margin-top: 37%;
                 font-size: 16px;
-                width: 98%;
-                padding: 0%;
+                width: 100%;
+                height: 0%;
+                padding: 2%;
             }
-            .btn_continuar {
+            #btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
                 margin-left: 0%;
-                margin-top: 26%;
+                margin-top: 37%;
                 font-size: 16px;
                 width: 117%;
-                padding: 3%;
             }
             .btn{
                 display: inline-flex;
                 float: right;
-                margin-right: 1%;
+                margin-right: -2.71%;
                 width: 74%;
-                margin-top: 71%;
+                margin-top: 73%;
             }
         }
-
         /** Actividade 1 **/
         @media only screen and (min-width: 1025px) and (max-width: 1440px) {
             nav{
@@ -853,12 +872,13 @@
                 margin:30px 90px;
             }
             .img_logo {
-                margin-top: -2%;
+                margin-top: -1%;
                 width: 30%;
             }
             div.page {
                 min-height:1000px;
             }
+
             /* Style the tab */
             .tab {
                 overflow: hidden;
@@ -890,42 +910,6 @@
             }
             /* Style the tab content */
             .tabcontent {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 38.30%;
-                margin-left: 5%;
-                height: 35vh;
-            }
-
-            .tab1 {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 40%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            .tab1 button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            .tab1 button:hover {
-                background-color: #ddd;
-            }
-            .tab1 button.active {
-                background-color: #ccc;
-            }
-            .tabcontent1 {
                 display: none;
                 padding: 6px 12px;
                 border: 1px solid #ccc;
@@ -942,27 +926,15 @@
                 border-radius: 4px;
             }
             #testar_img  {
-                background-color: #693bbc;
-                border-radius: 4px;
-                color: white;
-                margin-left: 2%;
-                font-size: 16px;
-                padding: 5px 20px;
-            }
-            #testar_vid  {
-                background-color: #693bbc;
-                border-radius: 4px;
-                color: white;
-                margin-left: 2%;
-                font-size: 16px;
-                padding: 5px 20px;
+                margin-left: 0%;
+                margin-top: 0.5%;
             }
 
             .demonstracao {
-                margin-top: -48.26%;
+                margin-top: -51.8%;
                 border: 1px solid black;
                 width: 45%;
-                height: 45.4vh;
+                height: 68.4vh;
                 border-radius: 4px;
                 position: absolute;
                 right: 5%;
@@ -974,7 +946,7 @@
                 float: left;
                 width: 180px;
             }
-            .btn_inicio {
+            #btn_inicio {
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
@@ -983,7 +955,7 @@
                 width: 23%;
                 padding: 1.5%;
             }
-            .btn_continuar {
+            #btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
@@ -995,9 +967,379 @@
             .btn {
                 display: inline-block;
                 float: right;
+                margin-right: -2%;
+                width: 100%;
+                margin-top: 77.65%;
+            }
+        }
+
+
+        /** Actividade 2 **/
+        @media only screen and (max-width: 600px) {
+            nav{
+                color: #FFF;
+                float: right;
+                margin: -12% 5%;
+            }
+            .img_logo1 {
+                margin-top: 0%;
+                width: 40%;
+            }
+            div.page {
+                min-height:1350px;
+            }
+
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 85.72%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_video {
+                width: 94%;
+            }
+            #testar_vid {
+                float: right;
+                margin-right: 5%;
+                margin-top: 0.5%;
+            }
+
+            /*.demonstracao {*/
+            /*    margin-left: 5%;*/
+            /*    margin-top: 10%;*/
+            /*    border: 1px solid black;*/
+            /*    width: 86%;*/
+            /*    height: 31.4vh;*/
+            /*    border-radius: 4px;*/
+            /*    position: absolute;*/
+            /*    padding: 10px;*/
+            /*}*/
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 175px;
+            }
+            #btn_inicio1 {
+                background-color: #6ed037;
+                border-radius: 4px;
+                color: black;
+                margin-left: 81%;
+                font-size: 16px;
+                width: 20%;
+                padding: 1.5%;
+            }
+            .btn1{
+                display: inline-flex;
+                float: right;
+                margin-right: -3%;
+                width: 219%;
+                margin-top: 78%;
+            }
+        }
+        /** Actividade 2 **/
+        @media only screen and (min-width: 601px) and (max-width: 800px) {
+            nav{
+                color: #FFF;
+                float: right;
+                margin: -8% 5%;
+            }
+            .img_logo1 {
+                margin-top: -1%;
+                width: 33%;
+            }
+            div.page {
+                min-height:1350px;
+            }
+
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 86.72%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_video {
+                width: 94%;
+                border: 1px solid black;
+                border-radius: 4px;
+            }
+            #testar_vid {
+                float: right;
+                margin-right: 5%;
+                margin-top: 0.5%;
+            }
+
+            /*.demonstracao {*/
+            /*    margin-left: 5%;*/
+            /*    margin-top: 10%;*/
+            /*    border: 1px solid black;*/
+            /*    width: 86%;*/
+            /*    height: 31.4vh;*/
+            /*    border-radius: 4px;*/
+            /*    position: absolute;*/
+            /*    padding: 10px;*/
+            /*}*/
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 175px;
+            }
+            #btn_inicio1 {
+                background-color: #6ed037;
+                border-radius: 4px;
+                color: black;
+                margin-left: 76%;
+                margin-top: 41%;
+                font-size: 16px;
+                width: 26%;
+                padding: 2%;
+            }
+            .btn1{
+                display: inline-flex;
+                float: right;
+                margin-right: -2%;
+                width: 100%;
+                margin-top: -4%;
+            }
+        }
+        /** Actividade 2 **/
+        @media only screen and (min-width: 801px) and (max-width: 1024px) {
+            nav{
+                color: #FFF;
+                float: right;
+                margin: 3% 5%;
+            }
+            .img_logo1 {
+                margin-top: -2%;
+                width: 40%;
+            }
+            div.page {
+                min-height:900px;
+            }
+
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 43%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 40.72%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_video {
+                width: 45%;
+                border: 1px solid black;
+                border-radius: 4px;
+            }
+            #testar_vid {
+                margin-left: 0%;
+                margin-top: 1.5%;
+            }
+
+            /*.demonstracao {*/
+            /*    margin-left: 5%;*/
+            /*    margin-top: -63.50%;*/
+            /*    border: 1px solid black;*/
+            /*    width: 42%;*/
+            /*    height: 31.4vh;*/
+            /*    border-radius: 4px;*/
+            /*    position: absolute;*/
+            /*    padding: 10px;*/
+            /*}*/
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 175px;
+            }
+            #btn_inicio1 {
+                background-color: #6ed037;
+                border-radius: 4px;
+                color: black;
+                margin-left: 51%;
+                margin-top: 37%;
+                font-size: 16px;
+                width: 47%;
+                padding: 3%;
+            }
+            .btn1{
+                display: inline-flex;
+                float: right;
+                margin-right: -3%;
+                width: 80%;
+                margin-top: 71%;
+            }
+        }
+        /** Actividade 2 **/
+        @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+            nav{
+                color: #FFF;
+                float: right;
+                margin:30px 90px;
+            }
+            .img_logo1 {
+                margin-top: -1%;
+                width: 30%;
+            }
+            div.page {
+                min-height:1000px;
+            }
+
+            .tab1 {
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background-color: #f1f1f1;
+                width: 40%;
+                margin-left: 5%;
+                margin-top: 2%;
+            }
+            .tab1 button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+            .tab1 button:hover {
+                background-color: #ddd;
+            }
+            .tab1 button.active {
+                background-color: #ccc;
+            }
+            .tabcontent1 {
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                border-top: none;
+                width: 38.30%;
+                margin-left: 5%;
+                height: 35vh;
+            }
+
+            #codigo_video {
+                width: 42%;
+                border: 1px solid black;
+                border-radius: 4px;
+            }
+            #testar_vid  {
+                margin-left: 0%;
+                margin-top: 0.5%;
+            }
+
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+            }
+            #btn_inicio1 {
+                background-color: #6ed037;
+                border-radius: 4px;
+                color: black;
+                margin-left: 78%;
+                font-size: 16px;
+                width: 23%;
+                padding: 1.5%;
+            }
+            .btn1 {
+                display: inline-block;
+                float: right;
                 margin-right: -1%;
                 width: 100%;
-                margin-top: 51.65%;
+                margin-top: 76.65%;
             }
         }
 
@@ -1018,7 +1360,7 @@
     <!-- header -->
     <header>
         <!-- navbar -->
-        <nav>
+        <nav id="nav_home">
             <ul>
                 <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
                 <li><a href="#Atividade2" data-page="Atividade2">Atividade 2</a></li>
@@ -1026,11 +1368,11 @@
         </nav>
         <!-- logo -->
         <div class="logo">
-            <img src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" alt="Engenheiras Por Um Dia" width="40%">
-            <img src="https://www.ipbeja.pt/PublishingImages/IPBejaESTIG.jpg" alt="IPBeja - ESTIG" width="26%" style="margin-left:2%">
+            <img id="eng" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" alt="Engenheiras Por Um Dia">
+            <img id="estig" src="https://www.ipbeja.pt/PublishingImages/IPBejaESTIG.jpg" alt="IPBeja - ESTIG">
         </div>
         <!-- title & content -->
-        <section class="header-content">
+        <section class="header-content" id="section_header">
             <h1 class="typewriter">Bem-Vindo</h1>
             <p> Bem-Vindo ao Projeto Engenheiras Por Um dia<br>
                 Qual o tema que vais querer explorar??<br>
@@ -1039,7 +1381,7 @@
             <button id="btn-vamos" type="button" data-page="Atividade1">Vamos lá!</button>
         </section>
 
-        <div style="color:white;margin-left:80%;margin-top: 15%">
+        <div id="developers">
             <p >Desenvolvido por Carolina Cerdeira e José Parreira</p>
         </div>
 
@@ -1076,7 +1418,7 @@
         <div id="Passo3_Imagem" class="tabcontent">
             <h3>Adicionar Imagem e Descrição</h3>
 
-            <textarea readonly="readonly" cols="85" rows="10"><div class="gallery">
+            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod"><div class="gallery">
     <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU" alt="Praia" style="width:100%;max-width:300px;height:130px">
     </a>
@@ -1084,18 +1426,18 @@
 </div>
             </textarea>
 
-            <div class="code">
-                <pre class="imagem" style="margin-left: -26%">
-                    <code class="language-html" data-lang="html">
-                        &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">gallery</span><span class="attributecolor" style="color:#690">"</span>&gt;
-                            &lt;<span class="attributecolor" style="color:#905">a</span> <span class="attributecolor" style="color:#690">target="</span><span class="attributecolor" style="color:#07a">_blank</span><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">href="</span><b>URL da imagem escolhida</b><span class="attributecolor" style="color:#690">"</span>&gt;
-                                &lt;<span class="attributecolor" style="color:#905">img</span> <span class="attributecolor" style="color:#690">src="</span><b>URL da imagem escolhida</b>" <span class="attributecolor" style="color:#690">alt="</span><b>Insere aqui o nome do teu TEMA</b><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">style="</span><span class="attributecolor" style="color:#07a">width:100%;max-width:300px;height:130px</span><span class="attributecolor" style="color:#690">"</span>&gt;
-                            &lt;<span class="attributecolor" style="color:#905">/a</span>&gt;
-                            &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">desc</span><span class="attributecolor" style="color:#690">"</span>&gt;<b>Adiciona uma descrição da imagem aqui</b>&lt;<span class="attributecolor" style="color:#905">/div</span>&gt;
-                        &lt;<span class="attributecolor" style="color:#905">/div</span>&gt;
-                    </code>
-                </pre>
-            </div>
+<!--            <div class="code">-->
+<!--                <pre class="imagem" style="margin-left: -26%">-->
+<!--                    <code class="language-html" data-lang="html">-->
+<!--                        &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">gallery</span><span class="attributecolor" style="color:#690">"</span>&gt;-->
+<!--                            &lt;<span class="attributecolor" style="color:#905">a</span> <span class="attributecolor" style="color:#690">target="</span><span class="attributecolor" style="color:#07a">_blank</span><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">href="</span><b>URL da imagem escolhida</b><span class="attributecolor" style="color:#690">"</span>&gt;-->
+<!--                                &lt;<span class="attributecolor" style="color:#905">img</span> <span class="attributecolor" style="color:#690">src="</span><b>URL da imagem escolhida</b>" <span class="attributecolor" style="color:#690">alt="</span><b>Insere aqui o nome do teu TEMA</b><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">style="</span><span class="attributecolor" style="color:#07a">width:100%;max-width:300px;height:130px</span><span class="attributecolor" style="color:#690">"</span>&gt;-->
+<!--                            &lt;<span class="attributecolor" style="color:#905">/a</span>&gt;-->
+<!--                            &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">desc</span><span class="attributecolor" style="color:#690">"</span>&gt;<b>Adiciona uma descrição da imagem aqui</b>&lt;<span class="attributecolor" style="color:#905">/div</span>&gt;-->
+<!--                        &lt;<span class="attributecolor" style="color:#905">/div</span>&gt;-->
+<!--                    </code>-->
+<!--                </pre>-->
+<!--            </div>-->
         </div>
 
     </div>
@@ -1106,8 +1448,8 @@
                 <label for="codigo_img">Escreve o teu código:</label>
                 <br>
                 <textarea id="codigo_img" name="codigo_img" rows="15" cols="92"></textarea>
-                <button type="button" id="testar_img">Testar</button>
             </div>
+            <button type="button" id="testar_img">Testar</button>
         </form>
     </div>
 
@@ -1122,8 +1464,8 @@
         <div id="demo_img"></div>
 
         <div class="btn">
-            <button type="button" class="btn_continuar" data-page="Atividade2"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
-            <button type="button" class="btn_inicio" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
+            <button type="button" id="btn_continuar" data-page="Atividade2"><i class="fa fa-arrow-down"></i> Vamos Continuar</button>
+            <button type="button" id="btn_inicio" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
         </div>
     </div>
 
@@ -1131,7 +1473,7 @@
 </div>
 <div class="page" id="Atividade2">
     <div class="nav_personalizada">
-        <a class="navbar-brand brand"><img class="img_logo" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" alt="Engenheiras Por Um Dia"></a>
+        <a class="navbar-brand brand"><img class="img_logo1" src="https://www.engenheirasporumdia.pt/assets/images/section-01/home-01.png?id=1234" alt="Engenheiras Por Um Dia"></a>
         <nav>
             <ul>
                 <li><a href="#Atividade1" data-page="Atividade1">Atividade 1</a></li>
@@ -1166,18 +1508,18 @@
 </div>
             </textarea>
 
-            <div class="code">
-                <pre class="imagem" style="margin-left: -26%">
-                    <code class="language-html" data-lang="html">
-                        &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">gallery</span><span class="attributecolor" style="color:#690">"</span>&gt;
-                            &lt;<span class="attributecolor" style="color:#905">a</span> <span class="attributecolor" style="color:#690">target="</span><span class="attributecolor" style="color:#07a">_blank</span><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">href="</span><b>URL da imagem escolhida</b><span class="attributecolor" style="color:#690">"</span>&gt;
-                                &lt;<span class="attributecolor" style="color:#905">img</span> <span class="attributecolor" style="color:#690">src="</span><b>URL da imagem escolhida</b>" <span class="attributecolor" style="color:#690">alt="</span><b>Insere aqui o nome do teu TEMA</b><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">style="</span><span class="attributecolor" style="color:#07a">width:100%;max-width:300px;height:130px</span><span class="attributecolor" style="color:#690">"</span>&gt;
-                            &lt;<span class="attributecolor" style="color:#905">/a</span>&gt;
-                            &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">desc</span><span class="attributecolor" style="color:#690">"</span>&gt;<b>Adiciona uma descrição da imagem aqui</b>&lt;<span class="attributecolor" style="color:#905">/div</span>&gt;
-                        &lt;<span class="attributecolor" style="color:#905">/div</span>&gt;
-                    </code>
-                </pre>
-            </div>
+<!--            <div class="code">-->
+<!--                <pre class="imagem" style="margin-left: -26%">-->
+<!--                    <code class="language-html" data-lang="html">-->
+<!--                        &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">gallery</span><span class="attributecolor" style="color:#690">"</span>&gt;-->
+<!--                            &lt;<span class="attributecolor" style="color:#905">a</span> <span class="attributecolor" style="color:#690">target="</span><span class="attributecolor" style="color:#07a">_blank</span><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">href="</span><b>URL da imagem escolhida</b><span class="attributecolor" style="color:#690">"</span>&gt;-->
+<!--                                &lt;<span class="attributecolor" style="color:#905">img</span> <span class="attributecolor" style="color:#690">src="</span><b>URL da imagem escolhida</b>" <span class="attributecolor" style="color:#690">alt="</span><b>Insere aqui o nome do teu TEMA</b><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">style="</span><span class="attributecolor" style="color:#07a">width:100%;max-width:300px;height:130px</span><span class="attributecolor" style="color:#690">"</span>&gt;-->
+<!--                            &lt;<span class="attributecolor" style="color:#905">/a</span>&gt;-->
+<!--                            &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">desc</span><span class="attributecolor" style="color:#690">"</span>&gt;<b>Adiciona uma descrição da imagem aqui</b>&lt;<span class="attributecolor" style="color:#905">/div</span>&gt;-->
+<!--                        &lt;<span class="attributecolor" style="color:#905">/div</span>&gt;-->
+<!--                    </code>-->
+<!--                </pre>-->
+<!--            </div>-->
         </div>
 
     </div>
@@ -1188,8 +1530,8 @@
                 <label for="codigo_video">Escreve o teu código:</label>
                 <br>
                 <textarea id="codigo_video" name="codigo_video" rows="15" cols="92"></textarea>
-                <button type="button" id="testar_vid">Testar</button>
             </div>
+            <button type="button" id="testar_vid">Testar</button>
         </form>
     </div>
 
@@ -1204,7 +1546,7 @@
 
         <div id="demo_vid"></div>
 
-        <div class="btn">
+        <div class="btn1">
             <button type="button" id="btn_inicio1" data-page="inicio"><i class="fa fa-arrow-up"></i> Voltar ao inicio</button>
         </div>
 
@@ -1224,12 +1566,12 @@
         $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
     })
 
-    $('.btn_inicio').click(function () {
+    $('#btn_inicio').click(function () {
         var pageId = $(this).attr("data-page");
         console.log(pageId);
         $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
     })
-    $('.btn_continuar').click(function () {
+    $('#btn_continuar').click(function () {
         var pageId = $(this).attr("data-page");
         console.log(pageId);
         $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
@@ -1292,7 +1634,7 @@
       })
 
     $('#testar_vid').click(function () {
-        var message_vid = $('textarea#codigo_vid').val()
+        var message_vid = $('textarea#codigo_video').val()
         console.log(message_vid);
 
         var count = 0;
