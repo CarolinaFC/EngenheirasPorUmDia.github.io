@@ -228,7 +228,7 @@
             border: none;
             outline: none;
             cursor: pointer;
-            padding: 10px 8px;
+            padding: 13px 8px;
             transition: 0.3s;
             font-size: 17px;
         }
@@ -249,7 +249,7 @@
             border-top: none;
             width: 38.72%;
             margin-left: 5%;
-            height: 35vh;
+            height: 37vh;
         }
 
         /* Style the tab */
@@ -258,7 +258,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             background-color: #f1f1f1;
-            width: 35%;
+            width: 40%;
             margin-left: 5%;
             margin-top: 2%;
         }
@@ -288,7 +288,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             border-top: none;
-            width: 33.72%;
+            width: 38.72%;
             margin-left: 5%;
             height: 35vh;
         }
@@ -419,7 +419,6 @@
             margin-top: -40.4%;
             margin-right: 41.9%;
         }
-
         #bloco2 {
             margin-left: 5%;
             margin-bottom: -1.5%;
@@ -1515,9 +1514,6 @@
     </style>
 </head>
 <body>
-<!--<script src="https://myCDN.com/prism@v1.x/components/prism-core.min.js"></script>-->
-<!--<script src="https://myCDN.com/prism@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>-->
-
 <!-- Background & animion & navbar & title -->
 <div class="container-fluid" id="inicio">
     <!-- Background animtion-->
@@ -1577,7 +1573,7 @@
             <button class="tablinks" onclick="openEfeito(event, 'PassoT_Imagem')" id="defaultOpen">HTML - Titulos</button>
             <button class="tablinks" onclick="openEfeito(event, 'PassoP_Imagem')">HTML - Parágrafos</button>
             <button class="tablinks" onclick="openEfeito(event, 'PassoL_Imagem')">HTML - Listas</button>
-            <button class="tablinks" onclick="openEfeito(event, 'Passo2_Imagem')">CSS</button>
+            <button class="tablinks" onclick="openEfeito(event, 'PassoCSS_Imagem')">CSS</button>
             <button class="tablinks" onclick="openEfeito(event, 'Passo3_Imagem')">Exercicio 1</button>
             <button class="tablinks" onclick="openEfeito(event, 'Passo4_Imagem')">Exercicio 2</button>
             <button class="tablinks" onclick="openEfeito(event, 'Passo4_Imagem')">Exercicio 3</button>
@@ -1585,6 +1581,7 @@
 
         <div id="PassoT_Imagem" class="tabcontent">
             <h3>Introdução ao HTML</h3>
+            <br>
             <p><b>Criação de Titulos</b></p>
             <p>Temos as Tags que vão de <span style="color:#905; background-color: #cccccc">&lt;h1&gt;</span> a <span style="color:#905; background-color: #cccccc">&lt;h6&gt;</span> em HTML que definem os <b>Títulos</b>.</p>
             <p>Experimenta criar Títulos escrevendo assim:</p>
@@ -1592,12 +1589,16 @@
             <p>Altera o <span style="color:#905; background-color: #cccccc">&lt;h1&gt;</span> e o <span style="color:#905; background-color: #cccccc">&lt;/h1&gt;</span> para <b>h2</b>, <b>h3</b>, <b>h4</b>, <b>h5</b>, <b>h6</b></p>
         </div>
         <div id="PassoP_Imagem" class="tabcontent">
+            <h3>Introdução ao HTML</h3>
+            <br>
             <p><b>Criação de Parágrafos</b></p>
             <p>Para criares <b>Parágrafos</b> basta usares a Tag <span style="color:#905; background-color: #cccccc">&lt;p&gt;</span> finalizando sempre com a Tag de fecho <span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span></p>
             <p>Experimenta criar Parágrafos escrevendo assim:</p>
             <p><span style="color:#905; background-color: #cccccc">&lt;p&gt;</span><span style="color:black; background-color: #cccccc">Parágrafo 1</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span></p>
         </div>
         <div id="PassoL_Imagem" class="tabcontent">
+            <h3>Introdução ao HTML</h3>
+            <br>
             <p><b>Criação de Listas</b></p>
             <p>Para criares <b>Listas</b> tens de usar duas Tags <span style="color:#905; background-color: #cccccc">&lt;ul&gt;</span> e <span style="color:#905; background-color: #cccccc">&lt;li&gt;</span> finalizando sempre com a Tag de fecho. Como temos duas Tags primeiro fecha-se a última Tag que foi aberta e depois a primeira, <span style="color:#905; background-color: #cccccc">&lt;/li&gt;</span> e <span style="color:#905; background-color: #cccccc">&lt;/ul&gt;</span></p>
             <p>Experimenta criar uma Lista escrevendo assim:</p>
@@ -1607,10 +1608,19 @@
                 <span style="color:#905; background-color: #cccccc">&lt;li&gt;</span><span style="color:black; background-color: #cccccc">Banana</span><span style="color:#905; background-color: #cccccc">&lt;/li&gt;</span><br>
                 <span style="color:#905; background-color: #cccccc">&lt;/ul&gt;</span></p>
         </div>
-        <div id="Passo2_Imagem" class="tabcontent">
+        <div id="PassoCSS_Imagem" class="tabcontent">
             <h3>Introdução ao CSS</h3>
-            <p>EXPLICAÇÃO</p>
-            <p>Codigo para o CSS, STYLE com os codigos de html da outra TAB</p>
+            <p>Vamos usar o código que acabámos aprender mas com estilo!!</p>
+            <p>Para usarmos o CSS temos uma Tag especial chamada <b>style</b>, ao usarmos esta Tag podemos mudar tudo o que quisermos, desde cor do texto, fonte do texto, entre muitas outras.</p>
+            <p>Para começares a usar o Css escreve assim:</p>
+            <p><span style="color:#905; background-color: #cccccc">&lt;h1</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#07a; background-color: #cccccc">color:red<span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span></span><span style="color:black; background-color: #cccccc">Titulo 1</span><span style="color:#905; background-color: #cccccc">&lt;/h1&gt;</span></p>
+            <p><span style="color:#905; background-color: #cccccc">&lt;p</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#07a; background-color: #cccccc">color:blue<span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span></span><span style="color:black; background-color: #cccccc">Parágrafo 1</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span></p>
+
+            <p><span style="color:#905; background-color: #cccccc">&lt;p&gt;</span><span style="color:black; background-color: #cccccc">Lista de Compras:</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span><br>
+            <span style="color:#905; background-color: #cccccc">&lt;ul&gt;</span><br>
+            <span style="color:#905; background-color: #cccccc">&lt;li</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#07a; background-color: #cccccc">color:green</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:black; background-color: #cccccc">Maçã</span><span style="color:#905; background-color: #cccccc">&lt;/li&gt;</span><br>
+            <span style="color:#905; background-color: #cccccc">&lt;li </span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#07a; background-color: #cccccc">color:yellow</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:black; background-color: #cccccc">Banana</span><span style="color:#905; background-color: #cccccc">&lt;/li&gt;</span><br>
+            <span style="color:#905; background-color: #cccccc">&lt;/ul&gt;</span></p>
         </div>
         <div id="Passo3_Imagem" class="tabcontent">
             <h3>Adicionar Imagem e Descrição</h3>
@@ -1732,7 +1742,7 @@
             <div class="container">
                 <label for="codigo_video">Escreve o teu código:</label>
                 <br>
-                <textarea id="codigo_video" name="codigo_video" rows="15" cols="92"></textarea>
+                <textarea id="codigo_video" name="codigo_video" rows="15" cols="106"></textarea>
             </div>
             <button type="button" id="testar_vid">Testar</button>
         </form>
@@ -1740,12 +1750,6 @@
 
     <p id="dem2">Demontração do código:</p>
     <div class="demonstracao">
-<!--        <div class="gallery">-->
-<!--            <a target="_blank" href="https://regiao-sul.pt/wp-content/uploads/2017/05/viagens-1200x720.jpg">-->
-<!--                <img src="https://regiao-sul.pt/wp-content/uploads/2017/05/viagens-1200x720.jpg" alt="Viagem de Verão" style="width:100%;max-width:300px;height:130px">-->
-<!--            </a>-->
-<!--            <div class="desc">Add a description of the image here</div>-->
-<!--        </div>-->
 
         <div id="demo_vid"></div>
 
