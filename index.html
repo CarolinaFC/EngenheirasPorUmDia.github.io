@@ -256,7 +256,6 @@
             margin-top: 4%;
         }
 
-        /* Style the tab */
         .tab1 {
             overflow: hidden;
             border: 1px solid #ccc;
@@ -266,7 +265,6 @@
             margin-left: 5%;
             margin-top: 2%;
         }
-        /* Style the buttons inside the tab */
         .tab1 button {
             background-color: inherit;
             float: left;
@@ -277,15 +275,12 @@
             transition: 0.3s;
             font-size: 17px;
         }
-        /* Change background color of buttons on hover */
         .tab1 button:hover {
             background-color: #ddd;
         }
-        /* Create an active/current tablink class */
         .tab1 button.active {
             background-color: #ccc;
         }
-        /* Style the tab content */
         .tabcontent1 {
             display: none;
             padding: 6px 12px;
@@ -294,10 +289,13 @@
             border-top: none;
             width: 38.72%;
             margin-left: 5%;
-            height: 35vh;
+            height: 42vh;
         }
 
         #code_img {
+            margin-top: -2%;
+        }
+        #code_vid {
             margin-top: -2%;
         }
 
@@ -327,15 +325,31 @@
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
 
-        .demonstracao {
-            margin-top: -40.5%;
+        #demonstracao_img {
             border: 1px solid black;
-            width: 45%;
+            width: 40%;
             height: 75.4vh;
             border-radius: 4px;
+            left: 51%;
+            padding: 20px;
+            margin: 0;
             position: absolute;
-            right: 5%;
-            padding: 10px;
+            top: 156.4%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        #demonstracao_vid {
+            border: 1px solid black;
+            width: 40%;
+            height: 74.2vh;
+            border-radius: 4px;
+            left: 51%;
+            padding: 20px;
+            margin: 0;
+            position: absolute;
+            top: 263.5%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
         }
 
         div.gallery {
@@ -372,7 +386,7 @@
             background-color: #693bbc;
             border-radius: 4px;
             color: white;
-            margin-left: 71.8%;
+            margin-left: 70%;
             font-size: 16px;
             width: 11%;
             padding: 0.5%;
@@ -384,14 +398,14 @@
             display: inline-block;
             float: right;
             width: 100%;
-            margin-top: -1.45%;
+            margin-top: -0.6%;
         }
 
         .btn1 {
             display: inline-block;
             float: right;
             width: 100%;
-            margin-top: -0.65%;
+            margin-top: -1.15%;
         }
         #btn_inicio1 {
             background-color: #6ed037;
@@ -399,8 +413,8 @@
             color: black;
             font-size: 16px;
             width: 12%;
-            padding: 1%;
-            margin-left: 83%;
+            padding: 0.5%;
+            margin-left: 81.3%;
         }
         #btn_inicio1:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -413,8 +427,8 @@
         }
         #dem {
             float: right;
-            margin-top: -41.8%;
-            margin-right: 41.9%;
+            margin-top: -42.2%;
+            margin-right: 39.8%;
         }
         #bloco2 {
             margin-left: 5%;
@@ -423,8 +437,8 @@
         }
         #dem2 {
             float: right;
-            margin-top: -40.4%;
-            margin-right: 41.9%;
+            margin-top: -41.8%;
+            margin-right: 39.7%;
         }
 
         #demo_img {
@@ -432,7 +446,7 @@
             overflow-y: scroll;
         }
         #demo_vid{
-            height: 72.4vh;
+            height: 75.4vh;
             overflow-y: scroll;
         }
 
@@ -862,7 +876,7 @@
                 width: 40%;
             }
             div.page {
-                min-height:800px;
+                min-height:1080px;
             }
             /* Style the tab */
             .tab {
@@ -902,11 +916,7 @@
                 border-top: none;
                 width: 40.72%;
                 margin-left: 5%;
-                height: 35vh;
-            }
-
-            #textarea_cod {
-                width: 98%;
+                height: 39vh;
             }
 
             #codigo_img {
@@ -919,16 +929,34 @@
                 margin-top: 1.5%;
             }
 
-            .demonstracao {
-                margin-left: 5%;
-                margin-top: -72%;
-                border: 1px solid black;
-                width: 42%;
-                height: 77.9vh;
-                border-radius: 4px;
-                position: absolute;
-                padding: 10px;
+            #code_img {
+                margin-top: 0%;
             }
+
+            #blo {
+                margin-left: 5%;
+                margin-bottom: -1.5%;
+                margin-top: 2%;
+            }
+            #dem {
+                float: right;
+                margin-top: -86.1%;
+                margin-right: 32%;
+            }
+            #demonstracao_img {
+                border: 1px solid black;
+                width: 40%;
+                height: 71vh;
+                border-radius: 4px;
+                left: 51%;
+                padding: 20px;
+                margin: 0;
+                position: absolute;
+                top: 151%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+
             div.gallery {
                 margin: 5px;
                 border: 1px solid #ccc;
@@ -942,25 +970,23 @@
                 margin-left: 5%;
                 margin-top: 37%;
                 font-size: 16px;
-                width: 100%;
-                height: 0%;
-                padding: 2%;
+                width: 17%;
+                padding: 1%;
             }
             #btn_continuar {
                 background-color: #693bbc;
                 border-radius: 4px;
                 color: white;
-                margin-left: 0%;
+                margin-left: 55%;
                 margin-top: 37%;
                 font-size: 16px;
-                width: 117%;
+                width: 18%;
             }
             .btn{
                 display: inline-flex;
                 float: right;
-                margin-right: -2.71%;
-                width: 74%;
-                margin-top: 83%;
+                width: 100%;
+                margin-top: -40%;
             }
 
             .footer {
@@ -1042,10 +1068,6 @@
                 height: 35vh;
             }
 
-            #textarea_cod {
-                width: 98%;
-            }
-
             #codigo_img {
                 width: 42%;
                 border: 1px solid black;
@@ -1063,184 +1085,21 @@
             }
             #dem {
                 float: right;
-                margin-top: -54%;
-                margin-right: 39.5%;
+                margin-top: -56.9%;
+                margin-right: 37%;
             }
-
-            #bloco2 {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem2 {
-                float: right;
-                margin-top: -54%;
-                margin-right: 39.5%;
-            }
-            .demonstracao {
-                margin-top: -52.3%;
+            #demonstracao_img {
                 border: 1px solid black;
-                width: 45%;
-                height: 77vh;
-                border-radius: 4px;
-                position: absolute;
-                right: 5%;
-                padding: 10px;
-            }
-            div.gallery {
-                margin: 5px;
-                border: 1px solid #ccc;
-                float: left;
-                width: 180px;
-            }
-            #btn_inicio {
-                background-color: #6ed037;
-                border-radius: 4px;
-                color: black;
-                margin-left: 2%;
-                font-size: 16px;
-                width: 13%;
-                padding: 1%;
-            }
-            #btn_continuar {
-                background-color: #693bbc;
-                border-radius: 4px;
-                color: white;
-                margin-left: 64.7%;
-                font-size: 16px;
-                width: 14%;
-                padding: 1%;
-            }
-            .btn {
-                display: inline-block;
-                float: right;
-                width: 100%;
-                margin-top: -0.35%;
-            }
-
-            .footer {
-                bottom: 0;
-                width: 100%;
-                background-color: #ababab;
-                height: 26vh;
-            }
-            #labsi2 {
-                width: 25%;
-                margin-left: 40%;
-                margin-bottom: 4%;
-            }
-            #developers1 {
-                margin-top: 2%;
-                margin-left: -39%;
-                color: white;
-                font-size: 18px;
-            }
-            #copy {
-                margin-left: 45.5%;
-                color: white;
-                font-size: 18px;
-            }
-        }
-        /** Actividade 1 **/
-        @media only screen and (min-width: 1441px) {
-            nav{
-                color: #FFF;
-                float: right;
-                margin:30px 90px;
-            }
-            .img_logo {
-                margin-top: -1%;
-                width: 30%;
-            }
-            div.page {
-                min-height:1000px;
-            }
-
-            /* Style the tab */
-            .tab {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
                 width: 40%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            /* Style the buttons inside the tab */
-            .tab button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            /* Change background color of buttons on hover */
-            .tab button:hover {
-                background-color: #ddd;
-            }
-            /* Create an active/current tablink class */
-            .tab button.active {
-                background-color: #ccc;
-            }
-            /* Style the tab content */
-            .tabcontent {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
+                height: 66vh;
                 border-radius: 4px;
-                border-top: none;
-                width: 38.30%;
-                margin-left: 5%;
-                height: 35vh;
-            }
-
-            #textarea_cod {
-                width: 98%;
-            }
-
-            #codigo_img {
-                width: 42%;
-                border: 1px solid black;
-                border-radius: 4px;
-            }
-            #testar_img  {
-                margin-left: 0%;
-                margin-top: 0.5%;
-            }
-
-            #blo {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem {
-                float: right;
-                margin-top: -54%;
-                margin-right: 39.5%;
-            }
-
-            #bloco2 {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem2 {
-                float: right;
-                margin-top: -54%;
-                margin-right: 39.5%;
-            }
-            .demonstracao {
-                margin-top: -52.3%;
-                border: 1px solid black;
-                width: 45%;
-                height: 77vh;
-                border-radius: 4px;
+                left: 51%;
+                padding: 20px;
+                margin: 0;
                 position: absolute;
-                right: 5%;
-                padding: 10px;
+                top: 149%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
             }
             div.gallery {
                 margin: 5px;
@@ -1491,9 +1350,6 @@
                 margin-top: -2%;
                 width: 40%;
             }
-            div.page {
-                min-height:900px;
-            }
 
             .tab1 {
                 overflow: hidden;
@@ -1545,6 +1401,30 @@
                 margin-top: 1.5%;
             }
 
+            #bloco2 {
+                margin-left: 5%;
+                margin-bottom: -1.5%;
+                margin-top: 2%;
+            }
+            #dem2 {
+                float: right;
+                margin-top: -80.1%;
+                margin-right: 32%;
+            }
+            #demonstracao_vid {
+                border: 1px solid black;
+                width: 40%;
+                height: 65.2vh;
+                border-radius: 4px;
+                left: 51%;
+                padding: 20px;
+                margin: 0;
+                position: absolute;
+                top: 247.8%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+
             div.gallery {
                 margin: 5px;
                 border: 1px solid #ccc;
@@ -1555,18 +1435,17 @@
                 background-color: #6ed037;
                 border-radius: 4px;
                 color: black;
-                margin-left: 51%;
+                margin-left: 73%;
                 margin-top: 37%;
                 font-size: 16px;
-                width: 47%;
-                padding: 3%;
+                width: 21%;
+                padding: 1.5%;
             }
             .btn1{
                 display: inline-flex;
                 float: right;
-                margin-right: -3%;
                 width: 80%;
-                margin-top: 81%;
+                margin-top: -33%;
             }
         }
         /** Actividade 2 **/
@@ -1634,6 +1513,29 @@
                 margin-top: 0.5%;
             }
 
+            #bloco2 {
+                margin-left: 5%;
+                margin-bottom: -1.5%;
+                margin-top: 2%;
+            }
+            #dem2 {
+                float: right;
+                margin-top: -56.8%;
+                margin-right: 37%;
+            }
+            #demonstracao_vid {
+                border: 1px solid black;
+                width: 40%;
+                height: 66.2vh;
+                border-radius: 4px;
+                left: 51%;
+                padding: 20px;
+                margin: 0;
+                position: absolute;
+                top: 241.7%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
             div.gallery {
                 margin: 5px;
                 border: 1px solid #ccc;
@@ -1646,15 +1548,15 @@
                 color: black;
                 margin-left: 78%;
                 font-size: 16px;
-                width: 23%;
-                padding: 1.5%;
+                width: 15%;
+                padding: 1%;
             }
             .btn1 {
                 display: inline-block;
                 float: right;
                 margin-right: -1%;
                 width: 100%;
-                margin-top: 72.65%;
+                margin-top: -1.8%;
             }
         }
 
@@ -1718,12 +1620,11 @@
         <p id="blo">Guia da Atividade:</p>
         <div class="tab">
             <button class="tablinks" onclick="openEfeito(event, 'PassoT_Imagem')" id="defaultOpen">HTML - Titulos/Parágrafos</button>
-<!--            <button class="tablinks" onclick="openEfeito(event, 'PassoP_Imagem')">HTML - Parágrafos</button>-->
             <button class="tablinks" onclick="openEfeito(event, 'PassoL_Imagem')">HTML - Listas</button>
             <button class="tablinks" onclick="openEfeito(event, 'PassoCSS_Imagem')">CSS</button>
             <button class="tablinks" onclick="openEfeito(event, 'Passo3_Imagem')">Exercicio 1</button>
             <button class="tablinks" onclick="openEfeito(event, 'Passo4_Imagem')">Exercicio 2</button>
-            <button class="tablinks" onclick="openEfeito(event, 'Passo4_Imagem')">Exercicio 3</button>
+            <button class="tablinks" onclick="openEfeito(event, 'Passo5_Imagem')">Exercicio 3</button>
         </div>
 
         <div id="PassoT_Imagem" class="tabcontent">
@@ -1739,14 +1640,6 @@
             <p>Experimenta criar Parágrafos escrevendo assim:</p>
             <p><span style="color:#905; background-color: #cccccc">&lt;p&gt;</span><span style="color:black; background-color: #cccccc">Parágrafo 1</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span></p>
         </div>
-<!--        <div id="PassoP_Imagem" class="tabcontent">-->
-<!--            <h3>Introdução ao HTML</h3>-->
-<!--            <br>-->
-<!--&lt;!&ndash;            <p><b>Criação de Parágrafos</b></p>&ndash;&gt;-->
-<!--&lt;!&ndash;            <p>Para criares <b>Parágrafos</b> basta usares a Tag <span style="color:#905; background-color: #cccccc">&lt;p&gt;</span> finalizando sempre com a Tag de fecho <span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span></p>&ndash;&gt;-->
-<!--&lt;!&ndash;            <p>Experimenta criar Parágrafos escrevendo assim:</p>&ndash;&gt;-->
-<!--&lt;!&ndash;            <p><span style="color:#905; background-color: #cccccc">&lt;p&gt;</span><span style="color:black; background-color: #cccccc">Parágrafo 1</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span></p>&ndash;&gt;-->
-<!--        </div>-->
         <div id="PassoL_Imagem" class="tabcontent">
             <h2>Introdução ao HTML</h2>
             <h3 style="color: #693bbc"><b>Criação de Listas</b></h3>
@@ -1786,42 +1679,18 @@
 
             <p><span style="color:#905; background-color: #cccccc">&lt;div </span><span style="color:#690; background-color: #cccccc">class="gallery"</span><span style="color:#905; background-color: #cccccc">&gt;</span><br>
             <span style="color:#905; background-color: #cccccc">&lt;img </span><span style="color:#690; background-color: #cccccc">src="</span><b style="background-color: #cccccc">URL da imagem escolhida</b><span style="color:#690; background-color: #cccccc">" </span><span style="color:#690; background-color: #cccccc">alt="</span><b style="background-color: #cccccc">Insere aqui o nome do teu TEMA</b><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc">&gt;</span><br>
-            <span style="color:#905; background-color: #cccccc">&lt;p</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#07a; background-color: #cccccc">color:blue<span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span></span><span style="color:black; background-color: #cccccc">Parágrafo 1</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span><br>
+                <span style="color:#905; background-color: #cccccc">&lt;p</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#07a; background-color: #cccccc">color:blue</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:black; background-color: #cccccc">Parágrafo 1</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span><br>
             <span style="color:#905; background-color: #cccccc">&lt;/div&gt;</span></p>
-
-<!--            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod"><div class="gallery">-->
-<!--    <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU">-->
-<!--    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU" alt="Praia" style="width:100%;max-width:300px;height:130px">-->
-<!--    </a>-->
-<!--    <div class="desc">Add a description of the image here</div>-->
-<!--</div>-->
-
-            </textarea>
-
-<!--            <div class="code">-->
-<!--                <pre class="imagem" style="margin-left: -26%">-->
-<!--                    <code class="language-html" >-->
-<!--                        &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">gallery</span><span class="attributecolor" style="color:#690">"</span>&gt;-->
-<!--                        &lt;<span class="attributecolor" style="color:#905">a</span> <span class="attributecolor" style="color:#690">target="</span><span class="attributecolor" style="color:#07a">_blank</span><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">href="</span><b>URL da imagem escolhida</b><span class="attributecolor" style="color:#690">"</span>&gt;-->
-<!--                                &lt;<span class="attributecolor" style="color:#905">img</span> <span class="attributecolor" style="color:#690">src="</span><b>URL da imagem escolhida</b>" <span class="attributecolor" style="color:#690">alt="</span><b>Insere aqui o nome do teu TEMA</b><span class="attributecolor" style="color:#690">"</span> <span class="attributecolor" style="color:#690">style="</span><span class="attributecolor" style="color:#07a">width:100%;max-width:300px;height:130px</span><span class="attributecolor" style="color:#690">"</span>&gt;-->
-<!--                            &lt;<span class="attributecolor" style="color:#905">/a</span>&gt;-->
-<!--                            &lt;<span class="attributecolor" style="color:#905">div</span> <span class="attributecolor" style="color:#690">class="</span><span class="attributecolor" style="color:#07a">desc</span><span class="attributecolor" style="color:#690">"</span>&gt;<b>Adiciona uma descrição da imagem aqui</b>&lt;<span class="attributecolor" style="color:#905">/div</span>&gt;-->
-<!--                        &lt;<span class="attributecolor" style="color:#905">/div</span>&gt;-->
-
-<!--                         &lt;div class="gallery"&gt;-->
-<!--                        &lt;atarget="_blank" href="<b>URL da imagem escolhida</b>"&gt;-->
-<!--                                &lt;img src="<b>URL da imagem escolhida</b>" alt="<b>Insere aqui o nome do teu TEMA</b>" style="width:100%;max-width:300px;height:130px"&gt;-->
-<!--                            &lt;/a&gt;-->
-<!--                            &lt;div class="desc" &gt;<b>Adiciona uma descrição da imagem aqui</b>&lt;/div&gt;-->
-<!--                        &lt;/div&gt;-->
-<!--                    </code>-->
-<!--                </pre>-->
-<!--            </div>-->
         </div>
         <div id="Passo4_Imagem" class="tabcontent">
-            <h3>Adicionar Filtros à Imagem</h3>
-            <p>EXPLICAÇÃO</p>
-            <p>Codigo para filtro</p>
+            <h3>Edição de Imagem</h3>
+            <p>Agora vamos editar a imagem ao nosso gosto. <br> Para isso edita o <b>style</b>, experimenta alterar a borda da imagem (<b>border-radius</b>) e altera o tamanho da imagem, (<b>width</b>). <br>
+            Não te esqueças também de alterar a cor do parágrafo.</p>
+            <p>Dica: Para alterares o tamanho da fonte do parágrafo podes adicionar à frente da cor o seguinte style <b>font-size:24px</b></p>
+
+            <p><span style="color:#905; background-color: #cccccc">&lt;img </span><span style="color:#690; background-color: #cccccc">src="</span><b style="background-color: #cccccc">URL da imagem escolhida</b><span style="color:#690; background-color: #cccccc">" </span><span style="color:#690; background-color: #cccccc">alt="</span><b style="background-color: #cccccc">Insere aqui o nome do teu TEMA</b><span style="color:#690; background-color: #cccccc">" </span><br><span style="color:#0077aa; background-color: #cccccc">style="border-radius:50%; width:20%"</span><span style="color:#905; background-color: #cccccc">&gt;</span><br>
+                <span style="color:#905; background-color: #cccccc">&lt;p</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#0077aa; background-color: #cccccc">color:red</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:black; background-color: #cccccc">Parágrafo 1</span><span style="color:#905; background-color: #cccccc">&lt;/p&gt;</span>
+            </p>
         </div>
         <div id="Passo5_Imagem" class="tabcontent">
             <h3>Adicionar animação à Imagem</h3>
@@ -1843,13 +1712,7 @@
     </div>
 
     <p id="dem">Demontração do código:</p>
-    <div class="demonstracao">
-<!--        <div class="gallery">-->
-<!--            <a target="_blank" href="https://regiao-sul.pt/wp-content/uploads/2017/05/viagens-1200x720.jpg">-->
-<!--                <img src="https://regiao-sul.pt/wp-content/uploads/2017/05/viagens-1200x720.jpg" alt="Viagem de Verão" style="width:100%;max-width:300px;height:130px">-->
-<!--            </a>-->
-<!--            <div class="desc">Add a description of the image here</div>-->
-<!--        </div>-->
+    <div id="demonstracao_img">
 
         <div id="demo_img"></div>
     </div>
@@ -1875,26 +1738,56 @@
         <p id="bloco2">Guia da Atividade:</p>
         <div class="tab1">
             <button class="tablinks1" onclick="openEfeito1(event, 'Passo1_Video')" id="defaultOpen1">Exercicio Multimédia</button>
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Exercicio Multimédia Avançado</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Exercicio Multimédia Butões</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo3_Video')">Exercicio Multimédia Avançado</button>
         </div>
 
         <div id="Passo1_Video" class="tabcontent1">
             <h3>Adicionar Video</h3>
             <p>EXPLICAÇÃO</p>
 
-            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod_vid"><div class="gallery">
-    <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLkBINYVZmmTRy5WekOTlymdzPW_bdIRYw&usqp=CAU" alt="Praia" style="width:100%;max-width:300px;height:130px">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-</div>
+            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod_vid"><iframe width="420" height="345" src="https://www.youtube.com/embed/UONYOcpxAtA" style="border:none"></iframe>
+
             </textarea>
 
         </div>
         <div id="Passo2_Video" class="tabcontent1">
             <h3>Adicionar Controlos ao Video</h3>
             <p>EXPLICAÇÃO</p>
+            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod_vid_buttons">
+<button onclick="playPause()">Play/Pause</button>
+<button>Big</button>
+<button>Small</button>
+<button>Normal</button>
+<br><br>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/UONYOcpxAtA" style="border:none"></iframe>
+            </textarea>
+
+        </div>
+        <div id="Passo3_Video" class="tabcontent1">
+            <h3>Adicionar Controlos ao Video 2</h3>
+            <p>EXPLICAÇÃO</p>
             <p>Codigo para os controlos em JAVASCRIPT</p>
+
+            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod_vid_js">
+<button id="play" >Play/Pause</button>
+<br><br>
+
+<iframe id="video2" width="420" height="345" src="https://www.youtube.com/embed/UONYOcpxAtA" frameborder="0" allowfullscreen></iframe>
+
+<script>
+$(document).ready(function() {
+  $('#play').on('click', function(ev) {
+
+    $("#video2")[0].src += "?autoplay=1";
+    ev.preventDefault();
+
+  });
+});
+</script>
+            </textarea>
+
         </div>
 
 
@@ -1902,7 +1795,7 @@
 
     <div class="form-cod">
         <form action="teste.html">
-            <div class="container">
+            <div class="container" id="code_vid">
                 <label for="codigo_video">Escreve o teu código:</label>
                 <br>
                 <textarea id="codigo_video" name="codigo_video" rows="15" cols="106"></textarea>
@@ -1912,7 +1805,7 @@
     </div>
 
     <p id="dem2">Demontração do código:</p>
-    <div class="demonstracao">
+    <div id="demonstracao_vid">
 
         <div id="demo_vid"></div>
 
