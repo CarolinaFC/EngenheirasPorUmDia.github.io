@@ -298,6 +298,10 @@
         #code_vid {
             margin-top: -2%;
         }
+        textarea {
+            resize: none;
+            font-size: 19px;
+        }
 
         #testar_img {
             background-color: #693bbc;
@@ -328,26 +332,26 @@
         #demonstracao_img {
             border: 1px solid black;
             width: 40%;
-            height: 75.4vh;
+            height: 75vh;
             border-radius: 4px;
             left: 51%;
             padding: 20px;
             margin: 0;
             position: absolute;
-            top: 156.4%;
+            top: 157.4%;
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
         }
         #demonstracao_vid {
             border: 1px solid black;
             width: 40%;
-            height: 74.2vh;
+            height: 74.8vh;
             border-radius: 4px;
             left: 51%;
             padding: 20px;
             margin: 0;
             position: absolute;
-            top: 263.5%;
+            top: 263.8%;
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
         }
@@ -427,8 +431,8 @@
         }
         #dem {
             float: right;
-            margin-top: -42.2%;
-            margin-right: 39.8%;
+            margin-top: -42.4%;
+            margin-right: 39.3%;
         }
         #bloco2 {
             margin-left: 5%;
@@ -437,8 +441,8 @@
         }
         #dem2 {
             float: right;
-            margin-top: -41.8%;
-            margin-right: 39.7%;
+            margin-top: -42.4%;
+            margin-right: 39.4%;
         }
 
         #demo_img {
@@ -2310,7 +2314,7 @@
             <div class="container" id="code_img">
                 <label for="codigo_img">Escreve o teu código:</label>
                 <br>
-                <textarea id="codigo_img" name="codigo_img" rows="15" cols="106"></textarea>
+                <textarea id="codigo_img" name="codigo_img" rows="11" cols="74"></textarea>
             </div>
             <button type="button" id="testar_img">Testar</button>
         </form>
@@ -2343,23 +2347,26 @@
         <p id="bloco2">Guia da Atividade:</p>
         <div class="tab1">
             <button class="tablinks1" onclick="openEfeito1(event, 'Passo1_Video')" id="defaultOpen1">Exercicio Multimédia</button>
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Exercicio Multimédia Botões</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Exercicio Multimédia Butões</button>
             <button class="tablinks1" onclick="openEfeito1(event, 'Passo3_Video')">Exercicio Multimédia Avançado</button>
         </div>
 
         <div id="Passo1_Video" class="tabcontent1">
-            <h3>Adicionar Video</h3>
-            <p>EXPLICAÇÃO</p>
+            <h3>Adicionar Fundo com Cores e Imagens</h3>
+            <br>
+            <p>Para adicionares um fundo colorido vamos criar uma caixa e preenche-la com cores:</p>
+            <p><span style="color:#905; background-color: #cccccc">&lt;div</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#0077aa; background-color: #cccccc">height:30vh;background-color:red</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#905; background-color: #cccccc">&lt;/div&gt;</span></p>
 
-            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod_vid"><iframe width="420" height="345" src="https://www.youtube.com/embed/UONYOcpxAtA" style="border:none"></iframe>
+            <p><span style="color:#905; background-color: #cccccc">&lt;div</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#0077aa; background-color: #cccccc">height:70vh;background-image:url('<b>URL da tua Imagem</b>')</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#905; background-color: #cccccc">&lt;/div&gt;</span></p>
 
-            </textarea>
+            <p>Para virares uma imagem em relação ao eixo das abcissas (X) e em relação ao eixo das ordenadas (Y)</p>
+            <p><span style="color:#905; background-color: #cccccc">&lt;div</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#0077aa; background-color: #cccccc">height:70vh;background-image:url('<b>URL da tua Imagem</b>')</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#905; background-color: #cccccc">&lt;/div&gt;</span></p>
 
         </div>
         <div id="Passo2_Video" class="tabcontent1">
             <h3>Adicionar Controlos ao Video</h3>
             <p>EXPLICAÇÃO</p>
-            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod_vid_buttons">
+            <textarea readonly="readonly" cols="70" rows="10" id="textarea_cod_vid_buttons">
 <button onclick="playPause()">Play/Pause</button>
 <button>Big</button>
 <button>Small</button>
@@ -2371,11 +2378,11 @@
 
         </div>
         <div id="Passo3_Video" class="tabcontent1">
-            <h3>Adicionar Controlos ao Video 2</h3>
+            <h3>Adicionar Video</h3>
             <p>EXPLICAÇÃO</p>
             <p>Codigo para os controlos em JAVASCRIPT</p>
 
-            <textarea readonly="readonly" cols="85" rows="10" id="textarea_cod_vid_js">
+            <textarea readonly="readonly" cols="70" rows="10" id="textarea_cod_vid_js">
 <button id="play" >Play/Pause</button>
 <br><br>
 
@@ -2403,7 +2410,7 @@ $(document).ready(function() {
             <div class="container" id="code_vid">
                 <label for="codigo_video">Escreve o teu código:</label>
                 <br>
-                <textarea id="codigo_video" name="codigo_video" rows="15" cols="106"></textarea>
+                <textarea id="codigo_video" name="codigo_video" rows="11" cols="74"></textarea>
             </div>
             <button type="button" id="testar_vid">Testar</button>
         </form>
@@ -2486,15 +2493,13 @@ $(document).ready(function() {
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen1").click();
 
-    //function testCode() {
-      $('#testar_img').click(function () {
+    $('#testar_img').click(function () {
           var message_img = $('textarea#codigo_img').val()
           console.log(message_img);
 
           $('#demo_img').empty();
 
           $('#demo_img').append(message_img);
-          count++;
       })
 
     $('#testar_vid').click(function () {
@@ -2504,10 +2509,8 @@ $(document).ready(function() {
         $('#demo_vid').empty();
 
         $('#demo_vid').append(message_vid);
-        count++;
     })
 
-    // }
 
 </script>
 
