@@ -14,7 +14,7 @@
             font-family: Arial, sans-serif;
             box-sizing: border-box;
             margin: 0;
-            min-height: 100vh;
+            height: 100%;
         }
         .container-fluid{
             height: 100%;
@@ -204,7 +204,7 @@
         }
 
         div.page {
-            height:1000px;
+            height:110vh;
         }
 
         .form-cod {
@@ -272,7 +272,7 @@
             border: none;
             outline: none;
             cursor: pointer;
-            padding: 14px 16px;
+            padding: 12px 10px;
             transition: 0.3s;
             font-size: 17px;
         }
@@ -290,7 +290,7 @@
             border-top: none;
             width: 38.72%;
             margin-left: 5%;
-            height: 42vh;
+            height: 44vh;
         }
 
         #code_img {
@@ -346,13 +346,13 @@
         #demonstracao_vid {
             border: 1px solid black;
             width: 40%;
-            height: 74.8vh;
+            height: 76.5vh;
             border-radius: 4px;
             left: 51%;
             padding: 20px;
             margin: 0;
             position: absolute;
-            top: 263.8%;
+            top: 267.8%;
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
         }
@@ -384,6 +384,15 @@
             width: 10%;
             padding: 0.5%;
         }
+        #btn_inicio {
+            background-color: #6ed037;
+            border-radius: 4px;
+            color: black;
+            margin-left: 2%;
+            font-size: 16px;
+            width: 10%;
+            padding: 0.5%;
+        }
         #btn_inicio:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
@@ -403,7 +412,7 @@
             display: inline-block;
             float: right;
             width: 100%;
-            margin-top: -0.6%;
+            margin-top: -1.2%;
         }
 
         .btn1 {
@@ -442,7 +451,7 @@
         }
         #dem2 {
             float: right;
-            margin-top: -42.4%;
+            margin-top: -43.5%;
             margin-right: 39.4%;
         }
 
@@ -451,7 +460,7 @@
             overflow-y: scroll;
         }
         #demo_vid{
-            height: 75.4vh;
+            height: 76.5vh;
             overflow-y: scroll;
         }
 
@@ -459,7 +468,7 @@
             bottom: 0;
             width: 100%;
             background-color: #ababab;
-            height: 22.5vh;
+            height: 23.5vh;
         }
         #labsi2 {
             width: 15%;
@@ -602,7 +611,396 @@
         }
 
         /** Actividade 1 **/
-        @media only screen and (max-width: 430px) {
+        /*@media only screen and (max-width: 430px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -12% 5%;*/
+        /*    }*/
+        /*    .img_logo {*/
+        /*        margin-top: -1%;*/
+        /*        width: 40%;*/
+        /*    }*/
+        /*    div.page {*/
+        /*        height:1380px;*/
+        /*    }*/
+        /*    !* Style the tab *!*/
+        /*    .tab {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    !* Style the buttons inside the tab *!*/
+        /*    .tab button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    !* Change background color of buttons on hover *!*/
+        /*    .tab button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    !* Create an active/current tablink class *!*/
+        /*    .tab button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    !* Style the tab content *!*/
+        /*    .tabcontent {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 85.4%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 65vh;*/
+        /*    }*/
+
+        /*    .form-cod {*/
+        /*        margin-top: 6%;*/
+        /*        margin-left: 5%;*/
+        /*    }*/
+
+        /*    #codigo_img {*/
+        /*        width: 94%;*/
+        /*    }*/
+        /*    #testar_img {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
+
+        /*    #blo {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem {*/
+        /*        float: right;*/
+        /*        margin-top: -0.2%;*/
+        /*        margin-right: 51.8%;*/
+        /*    }*/
+        /*    #demonstracao_img {*/
+        /*        border: 1px solid black;*/
+        /*        width: 82.6%;*/
+        /*        height: 28.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 253.6%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_img {*/
+        /*        height: 28.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 4%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 43.5%;*/
+        /*    }*/
+        /*    #btn_continuar {*/
+        /*        background-color: #693bbc;*/
+        /*        border-radius: 4px;*/
+        /*        color: white;*/
+        /*        margin-left: 5.8%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 43.5%;*/
+        /*        padding: 1%;*/
+        /*    }*/
+        /*    .btn{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        width: 100%;*/
+        /*        margin-top: 35%;*/
+        /*    }*/
+
+
+        /*}*/
+        /*!** Actividade 1 **!*/
+        /*@media only screen and (width: 480px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -12% 5%;*/
+        /*    }*/
+        /*    .img_logo {*/
+        /*        margin-top: -1%;*/
+        /*        width: 40%;*/
+        /*    }*/
+        /*    div.page {*/
+        /*        height:1420px;*/
+        /*    }*/
+        /*    !* Style the tab *!*/
+        /*    .tab {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    !* Style the buttons inside the tab *!*/
+        /*    .tab button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    !* Change background color of buttons on hover *!*/
+        /*    .tab button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    !* Create an active/current tablink class *!*/
+        /*    .tab button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    !* Style the tab content *!*/
+        /*    .tabcontent {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 85.4%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 65vh;*/
+        /*    }*/
+
+        /*    .form-cod {*/
+        /*        margin-top: 6%;*/
+        /*        margin-left: 5%;*/
+        /*    }*/
+
+        /*    #codigo_img {*/
+        /*        width: 94%;*/
+        /*    }*/
+        /*    #testar_img {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
+
+        /*    #blo {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem {*/
+        /*        float: right;*/
+        /*        margin-top: -0.2%;*/
+        /*        margin-right: 56.8%;*/
+        /*    }*/
+        /*    #demonstracao_img {*/
+        /*        border: 1px solid black;*/
+        /*        width: 82.6%;*/
+        /*        height: 28.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 252.6%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_img {*/
+        /*        height: 28.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 4%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 43.5%;*/
+        /*    }*/
+        /*    #btn_continuar {*/
+        /*        background-color: #693bbc;*/
+        /*        border-radius: 4px;*/
+        /*        color: white;*/
+        /*        margin-left: 4.8%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 43.5%;*/
+        /*        padding: 1%;*/
+        /*    }*/
+        /*    .btn{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        width: 100%;*/
+        /*        margin-top: 31%;*/
+        /*    }*/
+        /*}*/
+        /*!** Actividade 1 **!*/
+        /*@media only screen and (min-width: 481px) and (max-width: 600px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -12% 5%;*/
+        /*    }*/
+        /*    .img_logo {*/
+        /*        margin-top: -1%;*/
+        /*        width: 40%;*/
+        /*    }*/
+        /*    div.page {*/
+        /*        height:1380px;*/
+        /*    }*/
+        /*    !* Style the tab *!*/
+        /*    .tab {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    !* Style the buttons inside the tab *!*/
+        /*    .tab button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    !* Change background color of buttons on hover *!*/
+        /*    .tab button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    !* Create an active/current tablink class *!*/
+        /*    .tab button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    !* Style the tab content *!*/
+        /*    .tabcontent {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 85.4%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 65vh;*/
+        /*    }*/
+
+        /*    .form-cod {*/
+        /*        margin-top: 6%;*/
+        /*        margin-left: 5%;*/
+        /*    }*/
+
+        /*    #codigo_img {*/
+        /*        width: 94%;*/
+        /*    }*/
+        /*    #testar_img {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
+
+        /*    #blo {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem {*/
+        /*        float: right;*/
+        /*        margin-top: -0.2%;*/
+        /*        margin-right: 60.8%;*/
+        /*    }*/
+        /*    #demonstracao_img {*/
+        /*        border: 1px solid black;*/
+        /*        width: 82.6%;*/
+        /*        height: 33.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 264.6%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_img {*/
+        /*        height: 33.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 4%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 43.5%;*/
+        /*    }*/
+        /*    #btn_continuar {*/
+        /*        background-color: #693bbc;*/
+        /*        border-radius: 4px;*/
+        /*        color: white;*/
+        /*        margin-left: 4.8%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 43.5%;*/
+        /*        padding: 1%;*/
+        /*    }*/
+        /*    .btn{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        width: 100%;*/
+        /*        margin-top: 26%;*/
+        /*    }*/
+
+
+        /*}*/
+
+        /** Actividade 1 **/
+        @media only screen and (max-width: 600px) {
             nav{
                 color: #FFF;
                 float: right;
@@ -653,7 +1051,7 @@
                 border-top: none;
                 width: 85.4%;
                 margin-left: 5%;
-                height: 65vh;
+                height: 41vh;
             }
 
             .form-cod {
@@ -678,153 +1076,28 @@
             #dem {
                 float: right;
                 margin-top: -0.2%;
-                margin-right: 51.8%;
+                margin-right: 64.8%;
             }
             #demonstracao_img {
                 border: 1px solid black;
-                width: 82.6%;
-                height: 28.4vh;
+                width: 83.3%;
+                height: 22.4vh;
                 border-radius: 4px;
                 left: 5%;
                 padding: 20px;
                 margin: 0;
                 position: absolute;
-                top: 253.6%;
+                top: 208.8%;
                 -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
             }
+
+            .tabcontent1, #demonstracao_img {
+                width: 83.3%;
+            }
+
             #demo_img {
-                height: 28.4vh;
-                overflow-y: scroll;
-            }
-            div.gallery {
-                margin: 5px;
-                border: 1px solid #ccc;
-                float: left;
-                width: 175px;
-            }
-            #btn_inicio {
-                background-color: #6ed037;
-                border-radius: 4px;
-                color: black;
-                margin-left: 4%;
-                margin-top: 26%;
-                font-size: 16px;
-                width: 43.5%;
-            }
-            #btn_continuar {
-                background-color: #693bbc;
-                border-radius: 4px;
-                color: white;
-                margin-left: 5.8%;
-                margin-top: 26%;
-                font-size: 16px;
-                width: 43.5%;
-                padding: 1%;
-            }
-            .btn{
-                display: inline-flex;
-                float: right;
-                width: 100%;
-                margin-top: 35%;
-            }
-
-
-        }
-        /** Actividade 1 **/
-        @media only screen and (width: 480px) {
-            nav{
-                color: #FFF;
-                float: right;
-                margin: -12% 5%;
-            }
-            .img_logo {
-                margin-top: -1%;
-                width: 40%;
-            }
-            div.page {
-                height:1420px;
-            }
-            /* Style the tab */
-            .tab {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            /* Style the buttons inside the tab */
-            .tab button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            /* Change background color of buttons on hover */
-            .tab button:hover {
-                background-color: #ddd;
-            }
-            /* Create an active/current tablink class */
-            .tab button.active {
-                background-color: #ccc;
-            }
-            /* Style the tab content */
-            .tabcontent {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 85.4%;
-                margin-left: 5%;
-                height: 65vh;
-            }
-
-            .form-cod {
-                margin-top: 6%;
-                margin-left: 5%;
-            }
-
-            #codigo_img {
-                width: 94%;
-            }
-            #testar_img {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
-
-            #blo {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem {
-                float: right;
-                margin-top: -0.2%;
-                margin-right: 56.8%;
-            }
-            #demonstracao_img {
-                border: 1px solid black;
-                width: 82.6%;
-                height: 28.4vh;
-                border-radius: 4px;
-                left: 5%;
-                padding: 20px;
-                margin: 0;
-                position: absolute;
-                top: 252.6%;
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-            }
-            #demo_img {
-                height: 28.4vh;
+                height: 22.4vh;
                 overflow-y: scroll;
             }
             div.gallery {
@@ -856,293 +1129,165 @@
                 display: inline-flex;
                 float: right;
                 width: 100%;
-                margin-top: 31%;
-            }
-        }
-        /** Actividade 1 **/
-        @media only screen and (min-width: 481px) and (max-width: 600px) {
-            nav{
-                color: #FFF;
-                float: right;
-                margin: -12% 5%;
-            }
-            .img_logo {
-                margin-top: -1%;
-                width: 40%;
-            }
-            div.page {
-                height:1380px;
-            }
-            /* Style the tab */
-            .tab {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            /* Style the buttons inside the tab */
-            .tab button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            /* Change background color of buttons on hover */
-            .tab button:hover {
-                background-color: #ddd;
-            }
-            /* Create an active/current tablink class */
-            .tab button.active {
-                background-color: #ccc;
-            }
-            /* Style the tab content */
-            .tabcontent {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 85.4%;
-                margin-left: 5%;
-                height: 65vh;
-            }
-
-            .form-cod {
-                margin-top: 6%;
-                margin-left: 5%;
-            }
-
-            #codigo_img {
-                width: 94%;
-            }
-            #testar_img {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
-
-            #blo {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem {
-                float: right;
-                margin-top: -0.2%;
-                margin-right: 60.8%;
-            }
-            #demonstracao_img {
-                border: 1px solid black;
-                width: 82.6%;
-                height: 33.4vh;
-                border-radius: 4px;
-                left: 5%;
-                padding: 20px;
-                margin: 0;
-                position: absolute;
-                top: 264.6%;
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-            }
-            #demo_img {
-                height: 33.4vh;
-                overflow-y: scroll;
-            }
-            div.gallery {
-                margin: 5px;
-                border: 1px solid #ccc;
-                float: left;
-                width: 175px;
-            }
-            #btn_inicio {
-                background-color: #6ed037;
-                border-radius: 4px;
-                color: black;
-                margin-left: 4%;
-                margin-top: 26%;
-                font-size: 16px;
-                width: 43.5%;
-            }
-            #btn_continuar {
-                background-color: #693bbc;
-                border-radius: 4px;
-                color: white;
-                margin-left: 4.8%;
-                margin-top: 26%;
-                font-size: 16px;
-                width: 43.5%;
-                padding: 1%;
-            }
-            .btn{
-                display: inline-flex;
-                float: right;
-                width: 100%;
-                margin-top: 26%;
+                margin-top: 21%;
             }
 
 
         }
-        /** Actividade 1 **/
-        @media only screen and (min-width: 601px) and (max-width: 800px) {
-            nav{
-                color: #FFF;
-                float: right;
-                margin: -8% 5%;
-            }
-            .img_logo {
-                margin-top: -1%;
-                width: 33%;
-            }
-            div.page {
-                height:1300px;
-            }
-            /* Style the tab */
-            .tab {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            /* Style the buttons inside the tab */
-            .tab button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            /* Change background color of buttons on hover */
-            .tab button:hover {
-                background-color: #ddd;
-            }
-            /* Create an active/current tablink class */
-            .tab button.active {
-                background-color: #ccc;
-            }
-            /* Style the tab content */
-            .tabcontent {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 86.72%;
-                margin-left: 5%;
-                height: 51vh;
-            }
+        /*!** Actividade 1 **!*/
+        /*@media only screen and (min-width: 601px) and (max-width: 800px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -8% 5%;*/
+        /*    }*/
+        /*    .img_logo {*/
+        /*        margin-top: -1%;*/
+        /*        width: 33%;*/
+        /*    }*/
+        /*    div.page {*/
+        /*        height:1300px;*/
+        /*    }*/
+        /*    !* Style the tab *!*/
+        /*    .tab {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    !* Style the buttons inside the tab *!*/
+        /*    .tab button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    !* Change background color of buttons on hover *!*/
+        /*    .tab button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    !* Create an active/current tablink class *!*/
+        /*    .tab button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    !* Style the tab content *!*/
+        /*    .tabcontent {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 86.72%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 51vh;*/
+        /*    }*/
 
-            #code_img {
-                margin-top: 0%;
-            }
-            #codigo_img {
-                width: 94%;
-                border: 1px solid black;
-                border-radius: 4px;
-            }
-            #testar_img {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
+        /*    #code_img {*/
+        /*        margin-top: 0%;*/
+        /*    }*/
+        /*    #codigo_img {*/
+        /*        width: 94%;*/
+        /*        border: 1px solid black;*/
+        /*        border-radius: 4px;*/
+        /*    }*/
+        /*    #testar_img {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
 
-            #blo {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem {
-                float: right;
-                margin-top: 4.8%;
-                margin-right: 55%;
-            }
-            #demonstracao_img {
-                border: 1px solid black;
-                width: 84.6%;
-                height: 33.4vh;
-                border-radius: 4px;
-                left: 5%;
-                padding: 20px;
-                margin: 0;
-                position: absolute;
-                top: 240%;
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-            }
-            #demo_img {
-                height: 33.4vh;
-                overflow-y: scroll;
-            }
+        /*    #blo {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem {*/
+        /*        float: right;*/
+        /*        margin-top: 4.8%;*/
+        /*        margin-right: 55%;*/
+        /*    }*/
+        /*    #demonstracao_img {*/
+        /*        border: 1px solid black;*/
+        /*        width: 84.6%;*/
+        /*        height: 33.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 240%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_img {*/
+        /*        height: 33.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
 
-            div.gallery {
-                margin: 5px;
-                border: 1px solid #ccc;
-                float: left;
-                width: 175px;
-            }
-            #btn_inicio {
-                background-color: #6ed037;
-                border-radius: 4px;
-                color: black;
-                margin-left: 4%;
-                margin-top: 26%;
-                font-size: 16px;
-                width: 22%;
-                padding: 1%;
-            }
-            #btn_continuar {
-                background-color: #693bbc;
-                border-radius: 4px;
-                color: white;
-                margin-left: 45.5%;
-                margin-top: 26%;
-                font-size: 16px;
-                width: 24%;
-                padding: 1%;
-            }
-            .btn{
-                display: inline-flex;
-                float: right;
-                margin-right: 1%;
-                width: 100%;
-                margin-top: 14%;
-            }
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 4%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 22%;*/
+        /*        padding: 1%;*/
+        /*    }*/
+        /*    #btn_continuar {*/
+        /*        background-color: #693bbc;*/
+        /*        border-radius: 4px;*/
+        /*        color: white;*/
+        /*        margin-left: 45.5%;*/
+        /*        margin-top: 26%;*/
+        /*        font-size: 16px;*/
+        /*        width: 24%;*/
+        /*        padding: 1%;*/
+        /*    }*/
+        /*    .btn{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        margin-right: 1%;*/
+        /*        width: 100%;*/
+        /*        margin-top: 14%;*/
+        /*    }*/
 
-            .footer {
-                bottom: 0;
-                width: 100%;
-                background-color: #ababab;
-                height: 22.5vh;
-            }
-            #labsi2 {
-                width: 25%;
-                margin-left: 39%;
-                margin-bottom: 4%;
-            }
-            #developers1 {
-                margin-top: 2%;
-                margin-left: -56%;
-                color: white;
-                font-size: 17px;
-            }
-            #copy {
-                margin-left: 38.5%;
-                color: white;
-                font-size: 17px;
-            }
-        }
+        /*    .footer {*/
+        /*        bottom: 0;*/
+        /*        width: 100%;*/
+        /*        background-color: #ababab;*/
+        /*        height: 22.5vh;*/
+        /*    }*/
+        /*    #labsi2 {*/
+        /*        width: 25%;*/
+        /*        margin-left: 39%;*/
+        /*        margin-bottom: 4%;*/
+        /*    }*/
+        /*    #developers1 {*/
+        /*        margin-top: 2%;*/
+        /*        margin-left: -56%;*/
+        /*        color: white;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    #copy {*/
+        /*        margin-left: 38.5%;*/
+        /*        color: white;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*}*/
         /** Actividade 1 **/
         @media only screen and (min-width: 801px) and (max-width: 1024px) {
             nav{
@@ -1725,8 +1870,417 @@
             }
         }
 
+        /*!** Actividade 2 **!*/
+        /*@media only screen and (max-width: 430px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -12% 5%;*/
+        /*    }*/
+        /*    .img_logo1 {*/
+        /*        margin-top: 0%;*/
+        /*        width: 40%;*/
+        /*    }*/
+
+        /*    .tab1 {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    .tab1 button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    .tab1 button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    .tab1 button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    .tabcontent1 {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 85.72%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 51vh;*/
+        /*    }*/
+
+        /*    #textarea_cod_vid {*/
+        /*        width: 98%;*/
+        /*    }*/
+
+        /*    #code_vid {*/
+        /*        margin-top: 0%;*/
+        /*    }*/
+        /*    #codigo_video {*/
+        /*        width: 94%;*/
+        /*    }*/
+        /*    #testar_vid {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
+
+        /*    #bloco2 {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem2 {*/
+        /*        float: right;*/
+        /*        margin-top: -0.4%;*/
+        /*        margin-right: 51.2%;*/
+        /*    }*/
+        /*    #demonstracao_vid {*/
+        /*        border: 1px solid black;*/
+        /*        width: 82.6%;*/
+        /*        height: 28.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 427.1%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_vid {*/
+        /*        height: 28.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio1 {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 59.4%;*/
+        /*        font-size: 16px;*/
+        /*        width: 38%;*/
+        /*        padding: 1.5%;*/
+        /*    }*/
+        /*    .btn1{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        width: 100%;*/
+        /*        margin-top: 62%;*/
+        /*    }*/
+
+        /*    .footer {*/
+        /*        bottom: 0;*/
+        /*        width: 100%;*/
+        /*        background-color: #ababab;*/
+        /*        height: 24.5vh;*/
+        /*    }*/
+        /*    #labsi2 {*/
+        /*        width: 37%;*/
+        /*        margin-left: 35%;*/
+        /*        margin-bottom: 2%;*/
+        /*    }*/
+        /*    #developers1 {*/
+        /*        margin-top: 2%;*/
+        /*        margin-left: 9.8%;*/
+        /*        color: white;*/
+        /*        font-size: 16px;*/
+        /*    }*/
+        /*    #copy {*/
+        /*        margin-left: 34.5%;*/
+        /*        color: white;*/
+        /*        font-size: 16px;*/
+        /*    }*/
+        /*}*/
+        /*!** Actividade 2 **!*/
+        /*@media only screen and (width: 480px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -12% 5%;*/
+        /*    }*/
+        /*    .img_logo1 {*/
+        /*        margin-top: 0%;*/
+        /*        width: 40%;*/
+        /*    }*/
+
+        /*    .tab1 {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    .tab1 button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    .tab1 button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    .tab1 button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    .tabcontent1 {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 85.72%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 51vh;*/
+        /*    }*/
+
+        /*    #textarea_cod_vid {*/
+        /*        width: 98%;*/
+        /*    }*/
+
+        /*    #code_vid {*/
+        /*        margin-top: 0%;*/
+        /*    }*/
+        /*    #codigo_video {*/
+        /*        width: 94%;*/
+        /*    }*/
+        /*    #testar_vid {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
+
+        /*    #bloco2 {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem2 {*/
+        /*        float: right;*/
+        /*        margin-top: -0.4%;*/
+        /*        margin-right: 57.2%;*/
+        /*    }*/
+        /*    #demonstracao_vid {*/
+        /*        border: 1px solid black;*/
+        /*        width: 82.6%;*/
+        /*        height: 28.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 423.6%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_vid {*/
+        /*        height: 28.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio1 {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 58.4%;*/
+        /*        font-size: 16px;*/
+        /*        width: 38%;*/
+        /*        padding: 1.5%;*/
+        /*    }*/
+        /*    .btn1{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        width: 100%;*/
+        /*        margin-top: 59%;*/
+        /*    }*/
+
+        /*    .footer {*/
+        /*        bottom: 0;*/
+        /*        width: 100%;*/
+        /*        background-color: #ababab;*/
+        /*        height: 24.5vh;*/
+        /*    }*/
+        /*    #labsi2 {*/
+        /*        width: 37%;*/
+        /*        margin-left: 35%;*/
+        /*        margin-bottom: 2%;*/
+        /*    }*/
+        /*    #developers1 {*/
+        /*        margin-top: 2%;*/
+        /*        margin-left: 9.8%;*/
+        /*        color: white;*/
+        /*        font-size: 16px;*/
+        /*    }*/
+        /*    #copy {*/
+        /*        margin-left: 34.5%;*/
+        /*        color: white;*/
+        /*        font-size: 16px;*/
+        /*    }*/
+        /*}*/
+        /*!** Actividade 2 **!*/
+        /*@media only screen and (min-width: 481px) and (max-width: 600px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -12% 5%;*/
+        /*    }*/
+        /*    .img_logo1 {*/
+        /*        margin-top: 0%;*/
+        /*        width: 40%;*/
+        /*    }*/
+
+        /*    .tab1 {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    .tab1 button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    .tab1 button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    .tab1 button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    .tabcontent1 {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 85.72%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 51vh;*/
+        /*    }*/
+
+        /*    #textarea_cod_vid {*/
+        /*        width: 98%;*/
+        /*    }*/
+
+        /*    #code_vid {*/
+        /*        margin-top: 0%;*/
+        /*    }*/
+        /*    #codigo_video {*/
+        /*        width: 94%;*/
+        /*    }*/
+        /*    #testar_vid {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
+
+        /*    #bloco2 {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem2 {*/
+        /*        float: right;*/
+        /*        margin-top: -0.4%;*/
+        /*        margin-right: 61.2%;*/
+        /*    }*/
+        /*    #demonstracao_vid {*/
+        /*        border: 1px solid black;*/
+        /*        width: 82.6%;*/
+        /*        height: 33.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 444.4%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_vid {*/
+        /*        height: 33.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio1 {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 57.4%;*/
+        /*        font-size: 16px;*/
+        /*        width: 38%;*/
+        /*        padding: 1.5%;*/
+        /*    }*/
+        /*    .btn1{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        width: 100%;*/
+        /*        margin-top: 53%;*/
+        /*    }*/
+
+        /*    .footer {*/
+        /*        bottom: 0;*/
+        /*        width: 100%;*/
+        /*        background-color: #ababab;*/
+        /*        height: 24.5vh;*/
+        /*    }*/
+        /*    #labsi2 {*/
+        /*        width: 37%;*/
+        /*        margin-left: 35%;*/
+        /*        margin-bottom: 2%;*/
+        /*    }*/
+        /*    #developers1 {*/
+        /*        margin-top: 2%;*/
+        /*        margin-left: 9.8%;*/
+        /*        color: white;*/
+        /*        font-size: 16px;*/
+        /*    }*/
+        /*    #copy {*/
+        /*        margin-left: 34.5%;*/
+        /*        color: white;*/
+        /*        font-size: 16px;*/
+        /*    }*/
+        /*}*/
+
         /** Actividade 2 **/
-        @media only screen and (max-width: 430px) {
+        @media only screen and (max-width: 600px) {
             nav{
                 color: #FFF;
                 float: right;
@@ -1770,7 +2324,7 @@
                 border-top: none;
                 width: 85.72%;
                 margin-left: 5%;
-                height: 51vh;
+                height: 34vh;
             }
 
             #textarea_cod_vid {
@@ -1797,295 +2351,23 @@
             #dem2 {
                 float: right;
                 margin-top: -0.4%;
-                margin-right: 51.2%;
+                margin-right: 64.2%;
             }
             #demonstracao_vid {
                 border: 1px solid black;
-                width: 82.6%;
-                height: 28.4vh;
+                width: 83.3%;
+                height: 22.4vh;
                 border-radius: 4px;
                 left: 5%;
                 padding: 20px;
                 margin: 0;
                 position: absolute;
-                top: 427.1%;
+                top: 331%;
                 -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
             }
             #demo_vid {
-                height: 28.4vh;
-                overflow-y: scroll;
-            }
-            div.gallery {
-                margin: 5px;
-                border: 1px solid #ccc;
-                float: left;
-                width: 175px;
-            }
-            #btn_inicio1 {
-                background-color: #6ed037;
-                border-radius: 4px;
-                color: black;
-                margin-left: 59.4%;
-                font-size: 16px;
-                width: 38%;
-                padding: 1.5%;
-            }
-            .btn1{
-                display: inline-flex;
-                float: right;
-                width: 100%;
-                margin-top: 62%;
-            }
-
-            .footer {
-                bottom: 0;
-                width: 100%;
-                background-color: #ababab;
-                height: 24.5vh;
-            }
-            #labsi2 {
-                width: 37%;
-                margin-left: 35%;
-                margin-bottom: 2%;
-            }
-            #developers1 {
-                margin-top: 2%;
-                margin-left: 9.8%;
-                color: white;
-                font-size: 16px;
-            }
-            #copy {
-                margin-left: 34.5%;
-                color: white;
-                font-size: 16px;
-            }
-        }
-        /** Actividade 2 **/
-        @media only screen and (width: 480px) {
-            nav{
-                color: #FFF;
-                float: right;
-                margin: -12% 5%;
-            }
-            .img_logo1 {
-                margin-top: 0%;
-                width: 40%;
-            }
-
-            .tab1 {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            .tab1 button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            .tab1 button:hover {
-                background-color: #ddd;
-            }
-            .tab1 button.active {
-                background-color: #ccc;
-            }
-            .tabcontent1 {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 85.72%;
-                margin-left: 5%;
-                height: 51vh;
-            }
-
-            #textarea_cod_vid {
-                width: 98%;
-            }
-
-            #code_vid {
-                margin-top: 0%;
-            }
-            #codigo_video {
-                width: 94%;
-            }
-            #testar_vid {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
-
-            #bloco2 {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem2 {
-                float: right;
-                margin-top: -0.4%;
-                margin-right: 57.2%;
-            }
-            #demonstracao_vid {
-                border: 1px solid black;
-                width: 82.6%;
-                height: 28.4vh;
-                border-radius: 4px;
-                left: 5%;
-                padding: 20px;
-                margin: 0;
-                position: absolute;
-                top: 423.6%;
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-            }
-            #demo_vid {
-                height: 28.4vh;
-                overflow-y: scroll;
-            }
-            div.gallery {
-                margin: 5px;
-                border: 1px solid #ccc;
-                float: left;
-                width: 175px;
-            }
-            #btn_inicio1 {
-                background-color: #6ed037;
-                border-radius: 4px;
-                color: black;
-                margin-left: 58.4%;
-                font-size: 16px;
-                width: 38%;
-                padding: 1.5%;
-            }
-            .btn1{
-                display: inline-flex;
-                float: right;
-                width: 100%;
-                margin-top: 59%;
-            }
-
-            .footer {
-                bottom: 0;
-                width: 100%;
-                background-color: #ababab;
-                height: 24.5vh;
-            }
-            #labsi2 {
-                width: 37%;
-                margin-left: 35%;
-                margin-bottom: 2%;
-            }
-            #developers1 {
-                margin-top: 2%;
-                margin-left: 9.8%;
-                color: white;
-                font-size: 16px;
-            }
-            #copy {
-                margin-left: 34.5%;
-                color: white;
-                font-size: 16px;
-            }
-        }
-        /** Actividade 2 **/
-        @media only screen and (min-width: 481px) and (max-width: 600px) {
-            nav{
-                color: #FFF;
-                float: right;
-                margin: -12% 5%;
-            }
-            .img_logo1 {
-                margin-top: 0%;
-                width: 40%;
-            }
-
-            .tab1 {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            .tab1 button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            .tab1 button:hover {
-                background-color: #ddd;
-            }
-            .tab1 button.active {
-                background-color: #ccc;
-            }
-            .tabcontent1 {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 85.72%;
-                margin-left: 5%;
-                height: 51vh;
-            }
-
-            #textarea_cod_vid {
-                width: 98%;
-            }
-
-            #code_vid {
-                margin-top: 0%;
-            }
-            #codigo_video {
-                width: 94%;
-            }
-            #testar_vid {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
-
-            #bloco2 {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem2 {
-                float: right;
-                margin-top: -0.4%;
-                margin-right: 61.2%;
-            }
-            #demonstracao_vid {
-                border: 1px solid black;
-                width: 82.6%;
-                height: 33.4vh;
-                border-radius: 4px;
-                left: 5%;
-                padding: 20px;
-                margin: 0;
-                position: absolute;
-                top: 444.4%;
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-            }
-            #demo_vid {
-                height: 33.4vh;
+                height: 22.4vh;
                 overflow-y: scroll;
             }
             div.gallery {
@@ -2107,14 +2389,14 @@
                 display: inline-flex;
                 float: right;
                 width: 100%;
-                margin-top: 53%;
+                margin-top: 50%;
             }
 
             .footer {
                 bottom: 0;
                 width: 100%;
                 background-color: #ababab;
-                height: 24.5vh;
+                height: 18.5vh;
             }
             #labsi2 {
                 width: 37%;
@@ -2123,7 +2405,7 @@
             }
             #developers1 {
                 margin-top: 2%;
-                margin-left: 9.8%;
+                margin-left: 11.8%;
                 color: white;
                 font-size: 16px;
             }
@@ -2133,129 +2415,130 @@
                 font-size: 16px;
             }
         }
+
         /** Actividade 2 **/
-        @media only screen and (min-width: 601px) and (max-width: 800px) {
-            nav{
-                color: #FFF;
-                float: right;
-                margin: -8% 5%;
-            }
-            .img_logo1 {
-                margin-top: -1%;
-                width: 33%;
-            }
+        /*@media only screen and (min-width: 601px) and (max-width: 800px) {*/
+        /*    nav{*/
+        /*        color: #FFF;*/
+        /*        float: right;*/
+        /*        margin: -8% 5%;*/
+        /*    }*/
+        /*    .img_logo1 {*/
+        /*        margin-top: -1%;*/
+        /*        width: 33%;*/
+        /*    }*/
 
-            .tab1 {
-                overflow: hidden;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                background-color: #f1f1f1;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 2%;
-            }
-            .tab1 button {
-                background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 16px;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-            .tab1 button:hover {
-                background-color: #ddd;
-            }
-            .tab1 button.active {
-                background-color: #ccc;
-            }
-            .tabcontent1 {
-                display: none;
-                padding: 6px 12px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                border-top: none;
-                width: 86.72%;
-                margin-left: 5%;
-                height: 35vh;
-            }
+        /*    .tab1 {*/
+        /*        overflow: hidden;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        background-color: #f1f1f1;*/
+        /*        width: 90%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    .tab1 button {*/
+        /*        background-color: inherit;*/
+        /*        float: left;*/
+        /*        border: none;*/
+        /*        outline: none;*/
+        /*        cursor: pointer;*/
+        /*        padding: 14px 16px;*/
+        /*        transition: 0.3s;*/
+        /*        font-size: 17px;*/
+        /*    }*/
+        /*    .tab1 button:hover {*/
+        /*        background-color: #ddd;*/
+        /*    }*/
+        /*    .tab1 button.active {*/
+        /*        background-color: #ccc;*/
+        /*    }*/
+        /*    .tabcontent1 {*/
+        /*        display: none;*/
+        /*        padding: 6px 12px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        border-radius: 4px;*/
+        /*        border-top: none;*/
+        /*        width: 86.72%;*/
+        /*        margin-left: 5%;*/
+        /*        height: 35vh;*/
+        /*    }*/
 
-            #textarea_cod_vid {
-                width: 98%;
-            }
+        /*    #textarea_cod_vid {*/
+        /*        width: 98%;*/
+        /*    }*/
 
-            #bloco2 {
-                margin-left: 5%;
-                margin-bottom: -1.5%;
-                margin-top: 2%;
-            }
-            #dem2 {
-                float: right;
-                margin-top: 4.9%;
-                margin-right: 55%;
-            }
-            #demonstracao_vid {
-                border: 1px solid black;
-                width: 84.6%;
-                height: 33.4vh;
-                border-radius: 4px;
-                left: 5%;
-                padding: 20px;
-                margin: 0;
-                position: absolute;
-                top: 399.8%;
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-            }
-            #demo_vid {
-                height: 33.4vh;
-                overflow-y: scroll;
-            }
+        /*    #bloco2 {*/
+        /*        margin-left: 5%;*/
+        /*        margin-bottom: -1.5%;*/
+        /*        margin-top: 2%;*/
+        /*    }*/
+        /*    #dem2 {*/
+        /*        float: right;*/
+        /*        margin-top: 4.9%;*/
+        /*        margin-right: 55%;*/
+        /*    }*/
+        /*    #demonstracao_vid {*/
+        /*        border: 1px solid black;*/
+        /*        width: 84.6%;*/
+        /*        height: 33.4vh;*/
+        /*        border-radius: 4px;*/
+        /*        left: 5%;*/
+        /*        padding: 20px;*/
+        /*        margin: 0;*/
+        /*        position: absolute;*/
+        /*        top: 399.8%;*/
+        /*        -ms-transform: translateY(-50%);*/
+        /*        transform: translateY(-50%);*/
+        /*    }*/
+        /*    #demo_vid {*/
+        /*        height: 33.4vh;*/
+        /*        overflow-y: scroll;*/
+        /*    }*/
 
-            #code_vid {
-                margin-top: 0%;
-            }
-            #codigo_video {
-                width: 94%;
-                border: 1px solid black;
-                border-radius: 4px;
-            }
-            #testar_vid {
-                float: right;
-                margin-right: 5%;
-                margin-top: 0.5%;
-            }
+        /*    #code_vid {*/
+        /*        margin-top: 0%;*/
+        /*    }*/
+        /*    #codigo_video {*/
+        /*        width: 94%;*/
+        /*        border: 1px solid black;*/
+        /*        border-radius: 4px;*/
+        /*    }*/
+        /*    #testar_vid {*/
+        /*        float: right;*/
+        /*        margin-right: 5%;*/
+        /*        margin-top: 0.5%;*/
+        /*    }*/
 
-            div.gallery {
-                margin: 5px;
-                border: 1px solid #ccc;
-                float: left;
-                width: 175px;
-            }
-            #btn_inicio1 {
-                background-color: #6ed037;
-                border-radius: 4px;
-                color: black;
-                margin-left: 68.7%;
-                font-size: 16px;
-                width: 26%;
-                padding: 1.5%;
-            }
-            .btn1{
-                display: inline-flex;
-                float: right;
-                width: 100%;
-                margin-top: 41%;
-            }
+        /*    div.gallery {*/
+        /*        margin: 5px;*/
+        /*        border: 1px solid #ccc;*/
+        /*        float: left;*/
+        /*        width: 175px;*/
+        /*    }*/
+        /*    #btn_inicio1 {*/
+        /*        background-color: #6ed037;*/
+        /*        border-radius: 4px;*/
+        /*        color: black;*/
+        /*        margin-left: 68.7%;*/
+        /*        font-size: 16px;*/
+        /*        width: 26%;*/
+        /*        padding: 1.5%;*/
+        /*    }*/
+        /*    .btn1{*/
+        /*        display: inline-flex;*/
+        /*        float: right;*/
+        /*        width: 100%;*/
+        /*        margin-top: 41%;*/
+        /*    }*/
 
-            .footer {
-                bottom: 0;
-                width: 100%;
-                background-color: #ababab;
-                height: 20.5vh;
-            }
-        }
+        /*    .footer {*/
+        /*        bottom: 0;*/
+        /*        width: 100%;*/
+        /*        background-color: #ababab;*/
+        /*        height: 20.5vh;*/
+        /*    }*/
+        /*}*/
         /** Actividade 2 **/
         @media only screen and (min-width: 801px) and (max-width: 1024px) {
             nav{
@@ -2873,9 +3156,10 @@
     <div class="bloco_codigo">
         <p id="bloco2">Guia da Atividade:</p>
         <div class="tab1">
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo1_Video')" id="defaultOpen1">Exercicio Multimédia</button>
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Exercicio Multimédia Butões</button>
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo3_Video')">Exercicio Multimédia Avançado</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo1_Video')" id="defaultOpen1">Exercicio Multimédia 1</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Exercicio Multimédia 2</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo3_Video')">Continuação 2.1</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo4_Video')">Exercicio Multimédia 3</button>
         </div>
 
         <div id="Passo1_Video" class="tabcontent1">
@@ -2885,48 +3169,97 @@
             <p><span style="color:#905; background-color: #cccccc">&lt;div</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#0077aa; background-color: #cccccc">height:30vh;background-color:red</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#905; background-color: #cccccc">&lt;/div&gt;</span></p>
 
             <p><span style="color:#905; background-color: #cccccc">&lt;div</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#0077aa; background-color: #cccccc">height:70vh;background-image:url('<b>URL da tua Imagem</b>')</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#905; background-color: #cccccc">&lt;/div&gt;</span></p>
-
-            <p>Para virares uma imagem em relação ao eixo das abcissas (X) e em relação ao eixo das ordenadas (Y)</p>
-            <p><span style="color:#905; background-color: #cccccc">&lt;div</span><span style="color:#690; background-color: #cccccc"> style="</span><span style="color:#0077aa; background-color: #cccccc">height:70vh;background-image:url('<b>URL da tua Imagem</b>')</span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#905; background-color: #cccccc">&lt;/div&gt;</span></p>
-
         </div>
         <div id="Passo2_Video" class="tabcontent1">
-            <h3>Adicionar Controlos ao Video</h3>
-            <p>EXPLICAÇÃO</p>
-            <textarea readonly="readonly" cols="70" rows="10" id="textarea_cod_vid_buttons">
-<button onclick="playPause()">Play/Pause</button>
-<button>Big</button>
-<button>Small</button>
-<button>Normal</button>
-<br><br>
+            <h3>Inversão de uma Imagem em relação aos eixos dos XX e dos YY</h3>
+            <br>
+            <p>Primeiro antes de inverter-mos uma imagem precisamos de criá-la junto com a chamada de funções para mais à frente podermos criar funções que nos irão alterar os eixos da imagem</p>
 
-<iframe width="420" height="345" src="https://www.youtube.com/embed/UONYOcpxAtA" style="border:none"></iframe>
-            </textarea>
+            <p><span style="color:#905; background-color: #cccccc">&lt;img</span><span style="color:#690; background-color: #cccccc"> id="imagem"</span><span style="color:#690; background-color: #cccccc"> alt="imagem"</span><span style="color:#690; background-color: #cccccc"> src="</span><span style="color:#0077aa; background-color: #cccccc"><b>URL da tua Imagem</b></span><span style="color:#690; background-color: #cccccc">"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><br>
+                <span style="color:#905; background-color: #cccccc">&lt;br&gt;</span><br>
+
+                <span style="color:#905; background-color: #cccccc">&lt;p&gt;&lt;b&gt;</span><span style="background-color: #cccccc">Inverter em relação às abcissas.</span><span style="color:#905; background-color: #cccccc">&lt;/b&gt;&lt;/p&gt;</span><br>
+                <span style="color:#905; background-color: #cccccc">&lt;a</span><span style="color:#690; background-color: #cccccc"> id="abcissas" onmouseover="mouseOverX()" onmouseout="mouseOutX()"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#0077aa; background-color: #cccccc"><b>Inverter X</b></span><span style="color:#905; background-color: #cccccc">&lt;/a&gt;</span><br>
+
+                <span style="color:#905; background-color: #cccccc">&lt;br&gt;</span><br>
+                <span style="color:#905; background-color: #cccccc">&lt;p&gt;&lt;b&gt;</span><span style="background-color: #cccccc">Inverter em relação às ordenadas.</span><span style="color:#905; background-color: #cccccc">&lt;/b&gt;&lt;/p&gt;</span><br>
+                <span style="color:#905; background-color: #cccccc">&lt;a</span><span style="color:#690; background-color: #cccccc"> id="ordenadas" onmouseover="mouseOverY()" onmouseout="mouseOutY()"</span><span style="color:#905; background-color: #cccccc"> &gt;</span><span style="color:#0077aa; background-color: #cccccc"><b>Inverter Y</b></span><span style="color:#905; background-color: #cccccc">&lt;/a&gt;</span><br>
+                <br>
+            <p>No exercício a seguir vamos usar uma nova Tag chamada de <span style="color:#905; background-color: #cccccc">&lt;script&gt;</span>.<br> Nesta Tag podemos criar funções e nela podemos fazer tudo o que quisermos</p>
+
+<!--            <script>-->
+<!--                function mouseOverX() {-->
+<!--                    document.getElementById("abcissas").style.color = "red";-->
+<!--                    document.getElementById("imagem").style.transform = "scaleX(-1)";-->
+<!--                }-->
+
+<!--                function mouseOutX() {-->
+<!--                    document.getElementById("abcissas").style.color = "black";-->
+<!--                    document.getElementById("imagem").style.transform = "scaleX(1)";-->
+<!--                }-->
+
+
+<!--                function mouseOverY() {-->
+<!--                    document.getElementById("ordenadas").style.color = "green";-->
+<!--                    document.getElementById("imagem").style.transform = "scaleY(-1)";-->
+<!--                }-->
+
+<!--                function mouseOutY() {-->
+<!--                    document.getElementById("ordenadas").style.color = "black";-->
+<!--                    document.getElementById("imagem").style.transform = "scaleY(1)";-->
+<!--                }-->
+
+<!--            </script>-->
+        </p>
 
         </div>
         <div id="Passo3_Video" class="tabcontent1">
-            <h3>Adicionar Video</h3>
-            <p>EXPLICAÇÃO</p>
-            <p>Codigo para os controlos em JAVASCRIPT</p>
+            <h4>Continuação do Exercício anterior com animações</h4>
+            <p style="font-size: 14px">Para este exercício vamos inverter uma imagem em relação aos eixos das abcissas e das ordenadas.<br> Sendo assim basta <b>transformar</b> a imagem em relação a um dos eixos com uma escala de 1 e -1.</p>
 
-            <textarea readonly="readonly" cols="70" rows="10" id="textarea_cod_vid_js">
-<button id="play" >Play/Pause</button>
-<br><br>
-
-<iframe id="video2" width="420" height="345" src="https://www.youtube.com/embed/UONYOcpxAtA" frameborder="0" allowfullscreen></iframe>
-
-<script>
-$(document).ready(function() {
-  $('#play').on('click', function(ev) {
-
-    $("#video2")[0].src += "?autoplay=1";
-    ev.preventDefault();
-
-  });
-});
-</script>
-            </textarea>
-
+            <span style="font-size:14px; color:#905; background-color: #cccccc">&lt;script&gt;</span><br>
+            <span style="background-color: #cccccc">
+                    function mouseOverX() {
+            </span><br>
+            <span style="font-size:14px; background-color: #cccccc">
+                document.getElementById("abcissas").style.color = "red";
+                document.getElementById("imagem").style.transform = "scaleX(-1)";
+                }
+            </span><br><br>
+            <span style="font-size:14px; background-color: #cccccc">
+                function mouseOutX() {
+            </span><br>
+            <span style="font-size:14px; background-color: #cccccc">
+                    document.getElementById("abcissas").style.color = "black";
+                    document.getElementById("imagem").style.transform = "scaleX(1)";
+                }
+            </span><br><br>
+            <span style="font-size:14px; background-color: #cccccc">
+                function mouseOverY() {
+            </span><br>
+            <span style="font-size:14px; background-color: #cccccc">
+                    document.getElementById("ordenadas").style.color = "green";
+                    document.getElementById("imagem").style.transform = "scaleY(-1)";
+                }
+            </span><br><br>
+            <span style="font-size:14px; background-color: #cccccc">
+                function mouseOutY() {
+            </span><br>
+            <span style="font-size:14px; background-color: #cccccc">
+                    document.getElementById("ordenadas").style.color = "black";
+                    document.getElementById("imagem").style.transform = "scaleY(1)";
+                }
+            </span><br>
+            <span style="font-size:14px; color:#905; background-color: #cccccc">&lt;/script&gt;</span><br>
+        </div>
+        <div id="Passo4_Video" class="tabcontent1">
+            <h3>Adicionar um Video do YouTube</h3>
+            <p>Para adicionar um video do YouTube usamos uma Tag <span style="font-size:14px; color:#905; background-color: #cccccc">&lt;iframe&gt;</span>.<br>Esta Tag serve para criar uma moldura do video.</p>
+            <p>Sendo assim vamos criar uma frame sem bordas e que permita fazer ecrâ inteiro com o video que escolheste.</p>
+            <p>Para usar o <b>URL video YouTube</b> tens de primeiro esolher o video, de seguida copias só o código do video que se encontra a seguir ao <b>=</b>.</p>
+            <p>Exemplo:</p>
+            <p>https://www.youtube.com/watch?v=<span style="color:#002b99; background-color: #cccccc"><b>YSoT3T58QFY</b></span></p>
+            <p><span style="color:#905; background-color: #cccccc">&lt;iframe</span><span style="color:#690; background-color: #cccccc"> id="video" width="420" height="345" src="</span><b style="background-color: #cccccc">https://www.youtube.com/embed/CÓDIGO do video escolhido</b><span style="color:#690; background-color: #cccccc">"</span><span style="color:#690; background-color: #cccccc"> style="border:none" allowfullscreen</span><span style="color:#905; background-color: #cccccc">&gt;</span>
         </div>
 
 
