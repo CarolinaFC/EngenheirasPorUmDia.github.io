@@ -451,7 +451,7 @@
         }
         #dem2 {
             float: right;
-            margin-top: -43.5%;
+            margin-top: -45.8%;
             margin-right: 39.4%;
         }
 
@@ -3156,12 +3156,23 @@
     <div class="bloco_codigo">
         <p id="bloco2">Guia da Atividade:</p>
         <div class="tab1">
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo1_Video')" id="defaultOpen1">Exercicio Multimédia 1</button>
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Exercicio Multimédia 2</button>
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo3_Video')">Continuação 2.1</button>
-            <button class="tablinks1" onclick="openEfeito1(event, 'Passo4_Video')">Exercicio Multimédia 3</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo4_Video')" id="defaultOpen1">YouTube</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo1_Video')">Imagens&Cores</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo2_Video')">Imagens Dinâmincas 1.0</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo3_Video')">Imagens Dinâmincas 1.1</button>
+            <button class="tablinks1" onclick="openEfeito1(event, 'Passo5_Video')">Imagens Dinâmincas 1.2</button>
+
         </div>
 
+        <div id="Passo4_Video" class="tabcontent1">
+            <h3>Adicionar um Video do YouTube</h3>
+            <p>Para adicionar um video do YouTube usamos uma Tag <span style="font-size:14px; color:#905; background-color: #cccccc">&lt;iframe&gt;</span>.<br>Esta Tag serve para criar uma moldura do video.</p>
+            <p>Sendo assim vamos criar uma frame sem bordas e que permita fazer ecrâ inteiro com o video que escolheste.</p>
+            <p>Para usar o <b>URL video YouTube</b> tens de primeiro esolher o video, de seguida copias só o código do video que se encontra a seguir ao <b>=</b>.</p>
+            <p>Exemplo:</p>
+            <p>https://www.youtube.com/watch?v=<span style="color:#002b99; background-color: #cccccc"><b>YSoT3T58QFY</b></span></p>
+            <p><span style="color:#905; background-color: #cccccc">&lt;iframe</span><span style="color:#690; background-color: #cccccc"> id="video" width="420" height="345" src="</span><b style="background-color: #cccccc">https://www.youtube.com/embed/CÓDIGO do video escolhido</b><span style="color:#690; background-color: #cccccc">"</span><span style="color:#690; background-color: #cccccc"> style="border:none" allowfullscreen</span><span style="color:#905; background-color: #cccccc">&gt;</span>
+        </div>
         <div id="Passo1_Video" class="tabcontent1">
             <h3>Adicionar Fundo com Cores e Imagens</h3>
             <br>
@@ -3187,80 +3198,57 @@
                 <br>
             <p>No exercício a seguir vamos usar uma nova Tag chamada de <span style="color:#905; background-color: #cccccc">&lt;script&gt;</span>.<br> Nesta Tag podemos criar funções e nela podemos fazer tudo o que quisermos</p>
 
-<!--            <script>-->
-<!--                function mouseOverX() {-->
-<!--                    document.getElementById("abcissas").style.color = "red";-->
-<!--                    document.getElementById("imagem").style.transform = "scaleX(-1)";-->
-<!--                }-->
-
-<!--                function mouseOutX() {-->
-<!--                    document.getElementById("abcissas").style.color = "black";-->
-<!--                    document.getElementById("imagem").style.transform = "scaleX(1)";-->
-<!--                }-->
-
-
-<!--                function mouseOverY() {-->
-<!--                    document.getElementById("ordenadas").style.color = "green";-->
-<!--                    document.getElementById("imagem").style.transform = "scaleY(-1)";-->
-<!--                }-->
-
-<!--                function mouseOutY() {-->
-<!--                    document.getElementById("ordenadas").style.color = "black";-->
-<!--                    document.getElementById("imagem").style.transform = "scaleY(1)";-->
-<!--                }-->
-
-<!--            </script>-->
         </p>
 
         </div>
         <div id="Passo3_Video" class="tabcontent1">
-            <h4>Continuação do Exercício anterior com animações</h4>
-            <p style="font-size: 14px">Para este exercício vamos inverter uma imagem em relação aos eixos das abcissas e das ordenadas.<br> Sendo assim basta <b>transformar</b> a imagem em relação a um dos eixos com uma escala de 1 e -1.</p>
+            <h3>Introdução ao JavaScript</h3>
+            <h4 style="color: #693bbc">Continuação do Exercício anterior com animações</h4>
+            <p>Para este exercício vamos inverter uma imagem em relação aos eixos das abcissas e das ordenadas.<br> Sendo assim basta <b>transformar</b> a imagem em relação a um dos eixos com uma escala de 1 e -1.</p>
 
-            <span style="font-size:14px; color:#905; background-color: #cccccc">&lt;script&gt;</span><br>
+            <span style="color:#905; background-color: #cccccc">&lt;script&gt;</span><br>
             <span style="background-color: #cccccc">
                     function mouseOverX() {
             </span><br>
-            <span style="font-size:14px; background-color: #cccccc">
+            <span style="background-color: #cccccc">
                 document.getElementById("abcissas").style.color = "red";
                 document.getElementById("imagem").style.transform = "scaleX(-1)";
                 }
             </span><br><br>
-            <span style="font-size:14px; background-color: #cccccc">
+            <span style="background-color: #cccccc">
                 function mouseOutX() {
             </span><br>
-            <span style="font-size:14px; background-color: #cccccc">
+            <span style="background-color: #cccccc">
                     document.getElementById("abcissas").style.color = "black";
                     document.getElementById("imagem").style.transform = "scaleX(1)";
                 }
-            </span><br><br>
-            <span style="font-size:14px; background-color: #cccccc">
+            </span><br>
+            <span style="color:#905; background-color: #cccccc">&lt;/script&gt;</span><br>
+        </div>
+        <div id="Passo5_Video" class="tabcontent1">
+            <h4 style="color: #693bbc">Continuação do Exercício anterior com animações</h4>
+            <p>Para este exercício vamos inverter uma imagem em relação aos eixos das abcissas e das ordenadas.<br> Sendo assim basta <b>transformar</b> a imagem em relação a um dos eixos com uma escala de 1 e -1.</p>
+
+            <span style="color:#905; background-color: #cccccc">&lt;script&gt;</span><br>
+            <span style="background-color: #cccccc">
                 function mouseOverY() {
             </span><br>
-            <span style="font-size:14px; background-color: #cccccc">
+            <span style="background-color: #cccccc">
                     document.getElementById("ordenadas").style.color = "green";
                     document.getElementById("imagem").style.transform = "scaleY(-1)";
                 }
             </span><br><br>
-            <span style="font-size:14px; background-color: #cccccc">
+            <span style="background-color: #cccccc">
                 function mouseOutY() {
             </span><br>
-            <span style="font-size:14px; background-color: #cccccc">
+            <span style="background-color: #cccccc">
                     document.getElementById("ordenadas").style.color = "black";
                     document.getElementById("imagem").style.transform = "scaleY(1)";
                 }
             </span><br>
             <span style="font-size:14px; color:#905; background-color: #cccccc">&lt;/script&gt;</span><br>
         </div>
-        <div id="Passo4_Video" class="tabcontent1">
-            <h3>Adicionar um Video do YouTube</h3>
-            <p>Para adicionar um video do YouTube usamos uma Tag <span style="font-size:14px; color:#905; background-color: #cccccc">&lt;iframe&gt;</span>.<br>Esta Tag serve para criar uma moldura do video.</p>
-            <p>Sendo assim vamos criar uma frame sem bordas e que permita fazer ecrâ inteiro com o video que escolheste.</p>
-            <p>Para usar o <b>URL video YouTube</b> tens de primeiro esolher o video, de seguida copias só o código do video que se encontra a seguir ao <b>=</b>.</p>
-            <p>Exemplo:</p>
-            <p>https://www.youtube.com/watch?v=<span style="color:#002b99; background-color: #cccccc"><b>YSoT3T58QFY</b></span></p>
-            <p><span style="color:#905; background-color: #cccccc">&lt;iframe</span><span style="color:#690; background-color: #cccccc"> id="video" width="420" height="345" src="</span><b style="background-color: #cccccc">https://www.youtube.com/embed/CÓDIGO do video escolhido</b><span style="color:#690; background-color: #cccccc">"</span><span style="color:#690; background-color: #cccccc"> style="border:none" allowfullscreen</span><span style="color:#905; background-color: #cccccc">&gt;</span>
-        </div>
+
 
 
     </div>
