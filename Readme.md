@@ -16,7 +16,7 @@ Desenvolvido por Carolina Cerdeira e José Parreira.
 Licenciatura em Engenharia Informática.
 Instituto Politécnico de Beja - ESTIG.
 
-#################################################################################################################
+###########################################################################################################
 
 WebSite created for a presentation to students of the 3rd cycle of "Small steps to program in a web system". Prototype code editor based on HTML5, CSS3, BootStrap4 and JAVASCRIPT.
 Dedicated to the Engenheiras por Um Dia program.
